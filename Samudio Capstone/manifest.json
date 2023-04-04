@@ -274,33 +274,6 @@
         "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-18 11:31:50 UTC; unix"
       }
     },
-    "SKOPEdocumenteR": {
-      "Source": "CRAN",
-      "Repository": null,
-      "description": {
-        "Package": "SKOPEdocumenteR",
-        "Title": "Report Templates and KnowledgeHub integration for SKOPE",
-        "Version": "0.1.0",
-        "Authors@R": "c(person(\"Matthew\", \"Benigni\",\n    email = \"benignim@jdi.socom.mil\", role = c(\"aut\", \"cre\")),\n    person(\"Ian\", \"Kloo\",\n    email = \"ian.kloo@usma.edu\", role = c(\"aut\")))",
-        "Date": "2019-11-01",
-        "Description": "Templates created that incorporate styling\n    themes present throughout the SKOPE style guide, web page\n    and template documents. Templates are available to produce stand-alone HTML\n    reports and ioslides presentations. This work is \n    largely branched from the Biometrics package based TelethonKids/biometrics.git repo.",
-        "License": "GPL-3 + file LICENSE",
-        "Encoding": "UTF-8",
-        "LazyData": "true",
-        "Depends": "R (>= 3.5.0)",
-        "Imports": "ggplot2 (>= 3.1.0), dplyr (>= 0.8.0.1), tidyr (>= 0.8.2),\nreadr (>= 1.3.1), purrr (>= 0.2.5), tibble (>= 2.0.1), stringr\n(>= 1.3.1), forcats (>= 0.3.0), lubridate (>= 1.7.4), yaml (>=\n2.2.0), XML (>= 3.98-1.16), knitr (>= 1.21), kableExtra (>=\n1.0.0), broom (>= 0.5.1), repmis (>= 0.5), rmarkdown(>= 2.1),\nProjectTemplate (>= 0.8.2), jtools (>= 2.0.1), plotly(>= 4.9)",
-        "Suggests": "rmarkdown (>= 1.11)",
-        "VignetteBuilder": "knitr",
-        "RoxygenNote": "7.1.1",
-        "NeedsCompilation": "no",
-        "Packaged": "2022-04-29 18:17:55 UTC; developer",
-        "Author": "Matthew Benigni [aut, cre],\n  Ian Kloo [aut]",
-        "Maintainer": "Matthew Benigni <benignim@jdi.socom.mil>",
-        "RemoteType": "local",
-        "RemoteUrl": "/Users/developer/Desktop/skope-overview/SKOPEdocumenteR_0.1.0.tar.gz",
-        "Built": "R 4.1.3; ; 2022-04-29 18:18:18 UTC; unix"
-      }
-    },
     "XML": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com/",
