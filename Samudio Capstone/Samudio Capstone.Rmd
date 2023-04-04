@@ -8,14 +8,41 @@ output:
   ioslides_presentation:
     incremental: false
     widescreen: true
-    logo: assets/images/shift_logo.png
-    favicon: assets/images/shift_logo.png
+    logo: assets/images/shift_black_logo.png
+    favIcon: assets/images/shift_logo.png
     transition: slower 
     self_contained: true
 css: 
     - assets/static/custom.css
 
 ---
+<script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Decisive Point',
+                        subtitle: 'Defense Venture Fellowship Capstone',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: 'assets/images/shift_logo.png',
+              },
+
+      // Author information
+      presenters: [
+            {
+        name:  'MAJ Gabe Samudio' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+</script>
+
 
 ```{r setup, include=FALSE}
 library(knitr)
