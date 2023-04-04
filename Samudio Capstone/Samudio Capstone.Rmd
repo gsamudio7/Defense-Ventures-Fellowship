@@ -9,7 +9,6 @@ output:
     incremental: false
     widescreen: true
     logo: assets/images/shift_black_logo.png
-    favIcon: assets/images/shift_logo.png
     transition: slower 
     self_contained: true
 css: 
