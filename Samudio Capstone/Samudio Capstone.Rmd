@@ -57,7 +57,7 @@ library(visNetwork)
 library(SKOPEdocumenteR)
 ```
 
-## Decisive Point Overview {.columns-2 .smaller .build}
+## Decisive Point Overview {.columns-2 .smaller}
 
 ### Mission: 
 To empower national security and defense organizations with innovative technology solutions and expert consulting services that help them achieve their mission and protect the nation.
