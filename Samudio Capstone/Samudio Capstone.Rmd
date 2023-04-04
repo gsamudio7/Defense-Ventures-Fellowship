@@ -20,7 +20,7 @@ css:
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Decisive Point Capstone',
+                title: 'Decisive Point Capstone Test',
                         subtitle: 'Shift Defense Venture Fellowship',
                 useBuilds: true,
         usePrettify: true,
