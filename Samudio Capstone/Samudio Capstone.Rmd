@@ -54,7 +54,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(plotly)
 library(iheatmapr)
 library(visNetwork) 
-library(SKOPEdocumenteR)
+#library(SKOPEdocumenteR)
 ```
 
 ## Decisive Point Overview {.columns-2 .smaller}
