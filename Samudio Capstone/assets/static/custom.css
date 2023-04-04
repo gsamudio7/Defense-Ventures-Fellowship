@@ -18,19 +18,27 @@ h2 {
     font-size: 70px;
 }
 
+.title-slide hgroup h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgrey;
+    font-weight: inherit;
+}
+
 .title-slide hgroup h2 {
     font-size: 50px;
     color: darkgrey;
     font-weight: inherit;
 }
 
-h1,h3 {
-  font-size: 140%;
-  color: #003366;
+h3 {
+  font-size: 120%;
+  color: #63ebbc !important;
+  background-color: #4903E2 !important;
   padding 10 0 20 0;
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1.2em;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 slides > slide {
@@ -55,6 +63,50 @@ aside.gdbar img {
   width: 550px !important;
   height: 150px !important;
   background-color: #797979 !important;
+}
+
+.videoWrapper iframe {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.vp-center {
+    display: flex;
+    align-items: start !important;
+    justify-content: center;
+}
+
+.player .vp-video-wrapper .vp-telecine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity .25s;
+}
+.player .invisible {
+    opacity: 0;
+}
+
+.player, .player *, .player ::after, .player ::before {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+iframe {
+  width: 90%;
+  height: 250px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
