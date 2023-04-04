@@ -1,15 +1,26 @@
 body { 
-  font-family: 'Roboto-Light';
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 100%;
-  
+  background-color: 'black';
 }
 
-h1,h2, h3 {
+h2 {
+  color: #6c25be;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1,h3 {
   font-size: 140%;
   color: #003366;
   padding 10 0 20 0;
-  font-family:'Arial-Light';
+  font-family: 'Red Hat Display', sans-serif;
   line-height: 1.2em;
+  font-weight: 200;
+}
+
+slides > slide {
+  background: black;
+  color: #797979;
 }
 
 slides > slide:not(.nobackground):before {
@@ -29,7 +40,7 @@ aside.gdbar img {
 .gdbar {
   width: 550px !important;
   height: 150px !important;
-
+  background-color: #797979 !important;
 }
 
 
@@ -40,7 +51,7 @@ aside.gdbar img {
   text-align: center;
   font-size: 70%;
   color: #003366;
-  font-family:'Roboto-Light';
+ font-family: 'Red Hat Display', sans-serif;
   line-height: 0.6em;
   text-shadow: 0 0 10px #666666;
 }
@@ -52,7 +63,7 @@ aside.gdbar img {
   text-align: center;
   font-size: 70%;
   color: #003366;
-  font-family:'Roboto-Light';
+  font-family: 'Red Hat Display', sans-serif;
   line-height: 0.6em;
   text-shadow: 0 0 10px #666666;
 }
