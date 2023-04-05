@@ -69,9 +69,9 @@ Empower national security and defense organizations with innovative technology s
 
 </div>
 
-<p class="forceBreak"></p>
-
 <div>
+
+<p class="forceBreak"></p>
 
 ### Vision:
 Drive innovation across the industries critical to building a secure, healthy, and sustainable future; our approach amplifies the impact of our investments and creates long-term value for our investors.
