@@ -57,30 +57,32 @@ library(visNetwork)
 #library(SKOPEdocumenteR)
 ```
 
-## Decisive Point Overview {.columns-2 .smaller}
+## Decisive Point Overview {.columns-2 .smaller .build}
+
+<div>
 
 ### Mission: 
-To empower national security and defense organizations with innovative technology solutions and expert consulting services that help them achieve their mission and protect the nation.
+Empower national security and defense organizations with innovative technology solutions and expert consulting to help them achieve mission success.
 
-### Vision:
-To be the leading provider of innovative technology and consulting services that enable national security and defense organizations to stay ahead of evolving threats and achieve their mission with confidence.
+<br>
+<img src="assets/images/decisivePoint_portfolios.png" width="480" height="160"> 
 
-### Lines of Effort:
-- Accelerate
-- Advise
-- Invest
+</div>
 
 <p class="forceBreak"></p>
 
-<img src="assets/images/decisivePoint_portfolios.png" width="496.96" height="170"> 
+<div>
 
-<br>
+### Vision:
+Drive innovation across the industries critical to building a secure, healthy, and sustainable future; our approach amplifies the impact of our investments and creates long-term value for our investors.
 
 <div class="videoWrapper">
+<!-- &nbsp; &nbsp; &nbsp; -->
   <iframe title="vimeo-player" src="https://player.vimeo.com/video/764632792?h=e6bdb037ce" border="0">
   </iframe>
 </div>
 
+</div>
 
 
 <!-- ## Analytic Aimpoints -->
