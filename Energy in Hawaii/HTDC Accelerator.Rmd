@@ -1,0 +1,59 @@
+---
+title: "Decisive Point"
+subtitle: "HTDC Accelerator: Energy Landscape"
+author: "Ms. Keeley MacAfee"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+toc: true
+output: 
+  ioslides_presentation:
+    incremental: false
+    widescreen: true
+    logo: assets/images/decisivePointLogo.png
+    transition: slower 
+    self_contained: true
+css: 
+    - assets/static/custom.css
+
+---
+
+<style>
+.forceBreak { -webkit-column-break-after: always; break-after: column; }
+</style>
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(iheatmapr)
+library(visNetwork) 
+#library(SKOPEdocumenteR)
+```
+
+## Decisive Point Overview {.columns-2 .smaller .build}
+
+<div>
+
+### Mission: 
+Empower national security and defense organizations with innovative technology solutions and expert consulting to help them achieve mission success.
+
+<br>
+<img src="assets/images/decisivePoint_portfolios.png" width="480" height="160"> 
+
+</div>
+
+<div>
+
+<p class="forceBreak"></p>
+
+### Vision:
+Drive innovation across the industries critical to building a secure, healthy, and sustainable future; our approach amplifies the impact of our investments and creates long-term value for our investors.
+
+<div class="videoWrapper">
+<!-- &nbsp; &nbsp; &nbsp; -->
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/764632792?h=e6bdb037ce" border="0">
+  </iframe>
+</div>
+
+</div>
+
+

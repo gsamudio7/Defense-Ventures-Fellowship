@@ -1,0 +1,142 @@
+body { 
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 100%;
+  background-color: black;
+}
+
+slides > slide {
+  background: black;
+  color: white;
+}
+
+slides > slide:not(.title-slide) {
+   background-image: url("shift_purple_logo.png");
+   background-size: 9%;
+   background-repeat: no-repeat;
+   background-position: 93% 2%;
+ }
+
+h2 {
+    color: #884CDC !important;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.title-slide hgroup h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    font-weight: inherit;
+}
+
+.title-slide hgroup h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: inherit;
+}
+
+.title-slide hgroup p {
+    font-size: px;
+    color: white;
+    line-height: 1.3;
+    margin-top: 2em;
+}
+
+h3 {
+  font-size: 120%;
+  color: #63ebbc !important;
+  background-color: #4903E2 !important;
+  padding 10 0 20 0;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+slides > slide:not(.nobackground):before {
+    background: url(shift_purple_logo.png);
+    background-size: 0%;
+}
+
+aside.gdbar img {
+    width: 402px;
+    height: 125px;
+    position: absolute;
+    right: 0;
+    margin: 12px 12px;
+}
+
+.gdbar {
+  width: 550px !important;
+  height: 150px !important;
+  background-color: black !important;
+}
+
+.videoWrapper iframe {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.vp-center {
+    display: flex;
+    align-items: start !important;
+    justify-content: center;
+}
+
+.player .vp-video-wrapper .vp-telecine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity .25s;
+}
+.player .invisible {
+    opacity: 0;
+}
+
+.player, .player *, .player ::after, .player ::before {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+iframe {
+  width: 90%;
+  height: 250px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+.portion-mark-top {
+  top: 1em;
+  position: absolute;
+  width:80%;
+  text-align: center;
+  font-size: 70%;
+  color: #003366;
+ font-family: 'Red Hat Display', sans-serif;
+  line-height: 0.6em;
+  text-shadow: 0 0 10px #666666;
+}
+
+.portion-mark-bottom {
+  bottom: 1em;
+  position: absolute;
+  width:80%;
+  text-align: center;
+  font-size: 70%;
+  color: #003366;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 0.6em;
+  text-shadow: 0 0 10px #666666;
+}
