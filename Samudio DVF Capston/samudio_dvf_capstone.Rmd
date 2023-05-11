@@ -17,21 +17,23 @@ output:
     toc: yes
 ---
 
+```{r setup, echo=FALSE}
+library(pagedown)
+```
+
 <center>
 <img src="https://www.socom.mil/PublishingImages/20200211_splash_page_image.jpg" width="80%"/> 
 </center>
 
 <br>
 
-## Zero Growth Environment
+## Problem
 
-- Problem: 
+- I hoped to solve: 
   - "Zero Growth"
   - "Do not talk to vendors"
   - "Do not attend conferences"
   - "Do more with less"
-  
-- Hoping to solve:
   - <b>How to test innovative solutions from industry with a shrinking budget</b>
   
 ## SKOPE
@@ -43,11 +45,12 @@ output:
   - LOE 2: Process Automation
   - LOE 3: Tactical Data Science and AI Modernization
   
-## [Decisive Point](https://www.decisivepoint.com/)
+## Decisive Point
+#### [Invested in the Mission](https://www.decisivepoint.com/)
 
-- Invested in the Mission
+<img src= "https://media.licdn.com/dms/image/D4E22AQEeBq_5fsAOjg/feedshare-shrink_800/0/1683029800409?e=1686787200&v=beta&t=5NoAX01ynoAix-y0x0y5zffdyVCAOc7dBia3-LXHkRU" width=350px style="float:right; margin-right:25px"/>
 
-- Advocating against "DUAL USE"
+- Advocate against "DUAL USE"
 
 - My Contributions
   - NY Invest in America Conference
@@ -55,27 +58,99 @@ output:
   - SENTENAI Advisement
   - Market research for two Accelerators (Hawaii Energy and Boston AR/VR, AI)
   - Shark Tank
-
-## Potential Solutions
-
-- Start up Discovery
-  - SENTENAI
-
-  - BAZZE
-
-- Funding Solutions
-  - SOCOM SOF Digital Applications
-  - DoD Office
   
+<div style="clear:left"></div>
+
+<br>
+
 ## New Relationships
 
-- John O Connor
+<div style="float: left; width: 50%;">
 
-- Ryan Drzyzga
+<br>
 
-- Rohit Gupta
+<img src= "https://media.licdn.com/dms/image/C4D03AQF8vP89AZUxfw/profile-displayphoto-shrink_400_400/0/1592324109163?e=1689206400&v=beta&t=-fe4tWQci1xraesWHYbHdQWVe0vj4R9VkR24Pe0O96w" width=200px style="float:left; margin-right:25px"/>
 
-- 
+[John M. B. O'Connor](https://www.linkedin.com/in/john-m-b-o-connor-73711ab7/)
+
+- Known as CJCS Advisor on Wall Street 
+- Senior mentor
+- Boon Logic AI
+
+<div style="clear:left"></div>
+
+<br>
+
+<img src= "https://media.licdn.com/dms/image/C4D03AQGcmlqWp2X1cw/profile-displayphoto-shrink_400_400/0/1558474328468?e=1689206400&v=beta&t=55aJbhWxDmJC_dHeeiw69_z3i1oQAxNG74DurhoNUfc" width=200px style="float:left; margin-right:25px"/>
+
+[Nick Bono](https://www.linkedin.com/in/nick-bono-8752b81/)
+
+- Department of the Army Systems Coordinator (DASC)
+- Intelligence, Electronic Warfare & Sensors Directorate
+- Project Lynchpin
+
+<div style="clear:left"></div>
+
+</div>
+
+<div style="float: right; width: 50%;">
+
+<br>
+
+<img src= "https://media.licdn.com/dms/image/C4E03AQEVsK1BUiNwmg/profile-displayphoto-shrink_400_400/0/1516235185969?e=1689206400&v=beta&t=tZrFcHJCqGkOpTpHnhzOzbwsa4CC5EVNHhUERS2Q2E8" width=200px style="float:left; margin-right:25px"/>
+
+[Rohit Gupta](https://www.linkedin.com/in/rogupta/)
+
+- SentenAI CEO
+- In person demo 19MAY23
+- GSA Schedule
+
+<div style="clear:left"></div>
+
+<br>
+
+<img src= "https://media.licdn.com/dms/image/D4E03AQE66E1-cnomKA/profile-displayphoto-shrink_400_400/0/1682604863742?e=1689206400&v=beta&t=hyn_8RDDALP3fMq0eQsPo4UwnS7dZRsq6iOuqNptzcE" width=200px style="float:left; margin-right:25px"/>
+
+[Ryan Dryzga](https://www.linkedin.com/in/ryan-d-b901357/)
+
+- Bazze
+- SOF Relationship
+- SBIR P2 with SOCPAC
+- SOCOM SOF Digital Application
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+
 
 ## Change the Paradigm
+
+<div style="float: left; width: 45%;">
+
+### Status Quo
+"Every minute out of the SCIF is putting the mission at risk"
+
+"Do more with less"
+
+"Give me cans of AI"
+
+"Cuts are coming"
+
+"Conferences have zero value"
+
+</div>
+
+<div style="float: right; width: 45%; margin-right:25px">
+
+### New cultural - open to explore and find cooperative budget solutions
+SOF Week
+
+Army Intelligence & Security Enterprise (AISE) Industry Day
+
+JSOC Defense Venture Fellows 
+
+<div style="clear: both;"></div>
 
