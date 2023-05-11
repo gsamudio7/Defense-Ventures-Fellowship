@@ -1,15 +1,12 @@
 
-
-
 .img-fluid {
     max-width: 65%;
     height: auto;
-    filter: brightness(0.6);
+    filter: brightness(0.9);
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: -6em;
 }
-
 
 .dropdown-menu {
     position: absolute;
@@ -37,13 +34,14 @@
     border-top: 2px solid #7A0000;
 }
 
-
-
-
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-size: 1.75rem;
+}
 
 body {
   font-family: 'Red Hat Display', sans-serif;
-  color: #767676;
+  color: #d5dce3;
   background-color: #000000;
 }
 

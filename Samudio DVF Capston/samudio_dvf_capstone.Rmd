@@ -1,7 +1,7 @@
 ---
-title: "SHIFT DEFENSE VENTURES FELLOWSHIP CAPSTONE"
+title: "Defense Ventures Fellowship"
 subtitle: |
-  | DECISIVE POINT
+  | DECISIVE POINT CAPSTONE
   | `r format(Sys.time(), '%B %d, %Y')`
 author: "[MAJ Gabe Samudio](https://www.linkedin.com/in/gabe-samudio/)"
 logo: assets/images/GAPSeal.svg
