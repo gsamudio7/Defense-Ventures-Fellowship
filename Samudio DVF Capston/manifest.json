@@ -1,0 +1,3273 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.1.3",
+  "metadata": {
+    "appmode": "rmd-static",
+    "primary_rmd": "samudio_dvf_capstone.Rmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": {
+    "AsioHeaders": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "AsioHeaders",
+        "Type": "Package",
+        "Title": "'Asio' C++ Header Files",
+        "Version": "1.22.1-2",
+        "Date": "2022-12-07",
+        "Author": "Dirk Eddelbuettel",
+        "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+        "Description": "'Asio' is a cross-platform C++ library for network and low-level\n I/O programming that provides developers with a consistent asynchronous model\n using a modern C++ approach. It is also included in Boost but requires linking\n when used with Boost. Standalone it can be used header-only (provided a recent\n compiler). 'Asio' is written and maintained by Christopher M. Kohlhoff, and\n released under the 'Boost Software License', Version 1.0.",
+        "Copyright": "file inst/COPYRIGHTS",
+        "License": "BSL-1.0",
+        "URL": "https://github.com/eddelbuettel/asioheaders,\nhttps://dirk.eddelbuettel.com/code/asioheaders.html",
+        "BugReports": "https://github.com/eddelbuettel/asioheaders/issues",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-12-08 04:04:23 UTC; edd",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-12-08 08:12:34 UTC",
+        "Built": "R 4.1.2; ; 2022-12-09 11:23:28 UTC; unix"
+      }
+    },
+    "R6": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "R6",
+        "Title": "Encapsulated Classes with Reference Semantics",
+        "Version": "2.5.1",
+        "Authors@R": "person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@stdout.org\")",
+        "Description": "Creates classes with reference semantics, similar to R's built-in\n    reference classes. Compared to reference classes, R6 classes are simpler\n    and lighter-weight, and they are not built on S4 classes so they do not\n    require the methods package. These classes allow public and private\n    members, and they support inheritance, even when the classes are defined in\n    different packages.",
+        "Depends": "R (>= 3.0)",
+        "Suggests": "testthat, pryr",
+        "License": "MIT + file LICENSE",
+        "URL": "https://r6.r-lib.org, https://github.com/r-lib/R6/",
+        "BugReports": "https://github.com/r-lib/R6/issues",
+        "RoxygenNote": "7.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-08-06 20:18:46 UTC; winston",
+        "Author": "Winston Chang [aut, cre]",
+        "Maintainer": "Winston Chang <winston@stdout.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-19 14:00:05 UTC",
+        "Built": "R 4.1.1; ; 2021-08-21 01:42:40 UTC; unix"
+      }
+    },
+    "Rcpp": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "Rcpp",
+        "Title": "Seamless R and C++ Integration",
+        "Version": "1.0.8.3",
+        "Date": "2022-03-13",
+        "Author": "Dirk Eddelbuettel, Romain Francois, JJ Allaire, Kevin Ushey, Qiang Kou,\n Nathan Russell, Inaki Ucar, Douglas Bates and John Chambers",
+        "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+        "Description": "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation\n about 'Rcpp' is provided by several vignettes included in this package, via the\n 'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by Eddelbuettel and\n Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,\n <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018,\n <doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for details.",
+        "Imports": "methods, utils",
+        "Suggests": "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",
+        "URL": "http://www.rcpp.org, https://dirk.eddelbuettel.com/code/rcpp.html,\nhttps://github.com/RcppCore/Rcpp",
+        "License": "GPL (>= 2)",
+        "BugReports": "https://github.com/RcppCore/Rcpp/issues",
+        "MailingList": "rcpp-devel@lists.r-forge.r-project.org",
+        "RoxygenNote": "6.1.1",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-13 17:40:34 UTC; edd",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-17 08:30:10 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-18 11:31:50 UTC; unix"
+      }
+    },
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-3",
+        "Title": "Tools for base64 encoding",
+        "Author": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+        "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+        "Depends": "R (>= 2.9.0)",
+        "Enhances": "png",
+        "Description": "This package provides tools for handling base64 encoding. It is more flexible than the orphaned base64 package.",
+        "License": "GPL-2 | GPL-3",
+        "URL": "http://www.rforge.net/base64enc",
+        "NeedsCompilation": "yes",
+        "Packaged": "2015-02-04 20:31:00 UTC; svnuser",
+        "Repository": "CRAN",
+        "Date/Publication": "2015-07-28 08:03:37",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-07-12 06:35:26 UTC; unix"
+      }
+    },
+    "bookdown": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "bookdown",
+        "Type": "Package",
+        "Title": "Authoring Books and Technical Documents with R Markdown",
+        "Version": "0.23",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Albert\", \"Kim\", role = \"ctb\"),\n    person(\"Alessandro\", \"Samuel-Rosa\", role = \"ctb\"),\n    person(\"Andrzej\", \"Oles\", role = \"ctb\"),\n    person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n    person(\"Aust\", \"Frederik\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n    person(\"Bastiaan\", \"Quast\", role = \"ctb\"),\n    person(\"Ben\", \"Marwick\", role = \"ctb\"),\n    person(\"Chester\", \"Ismay\", role = \"ctb\"),\n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"Clifton\", \"Franklund\", role = \"ctb\"),\n    person(\"Daniel\", \"Emaasit\", role = \"ctb\"),\n    person(\"David\", \"Shuman\", role = \"ctb\"),\n    person(\"Dean\", \"Attali\", role = \"ctb\"),\n    person(\"Drew\", \"Tyre\", role = \"ctb\"),\n    person(\"Ellis\", \"Valentiner\", role = \"ctb\"),\n    person(\"Frans\", \"van Dunne\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Jeff\", \"Allen\", role = \"ctb\"),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\"),\n    person(\"Jonathan\", \"McPhers\", role = \"ctb\"),\n    person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n    person(\"Joyce\", \"Robbins\", role = \"ctb\"),\n    person(\"Junwen\", \"Huang\", role = \"ctb\"),\n    person(\"Kevin\", \"Cheung\", role = \"ctb\"),\n    person(\"Kevin\", \"Ushey\", role = \"ctb\"),\n    person(\"Kim\", \"Seonghyun\", role = \"ctb\"),\n    person(\"Kirill\", \"Muller\", role = \"ctb\"),\n    person(\"Luciano\", \"Selzer\", role = \"ctb\"),\n    person(\"Matthew\", \"Lincoln\", role = \"ctb\"),\n    person(\"Maximilian\", \"Held\", role = \"ctb\"),\n    person(\"Michael\", \"Sachs\", role = \"ctb\"),\n    person(\"Michal\", \"Bojanowski\", role = \"ctb\"),\n    person(\"Nathan\", \"Werth\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Peter\", \"Hickey\", role = \"ctb\"),\n    person(\"Pedro Rafael D.\", \"Marinho\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1591-8300\")),\n    person(\"Romain\", \"Lesur\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0721-5595\")),\n    person(\"Sahir\", \"Bhatnagar\", role = \"ctb\"),\n    person(\"Shir\", \"Dekel\", role = \"ctb\", comment = c(ORCID = \"0000-0003-1773-2446\")),\n    person(\"Steve\", \"Simpson\", role = \"ctb\"),\n    person(\"Thierry\", \"Onkelinx\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n    person(\"Vincent\", \"Fulco\", role = \"ctb\"),\n    person(\"Yixuan\", \"Qiu\", role = \"ctb\"),\n    person(\"Zhuoer\", \"Dong\", role = \"ctb\"),\n    person(family = \"RStudio, PBC\", role = \"cph\"),\n    person(\"Bartek\", \"Szopka\", role = \"ctb\", comment = \"The jQuery Highlight plugin\"),\n    person(\"Zeno\", \"Rocha\", role = \"cph\", comment = \"clipboard.js library\"),\n    person(family = \"MathQuill contributors\", role = \"ctb\", comment = \"The MathQuill library; authors listed in inst/resources/AUTHORS\"),\n    person(family = \"FriendCode Inc\", role = c(\"cph\", \"ctb\"), comment = \"The gitbook style, with modifications\")\n    )",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Description": "Output formats and utilities for authoring books and technical documents with R Markdown.",
+        "License": "GPL-3",
+        "Imports": "htmltools (>= 0.3.6), knitr (>= 1.31), rmarkdown (>= 2.9),\njquerylib, xfun (>= 0.22), tinytex (>= 0.12), yaml (>= 2.1.19)",
+        "Suggests": "bslib (>= 0.2.4), downlit (>= 0.2.1), htmlwidgets, jsonlite,\nrstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13),\nshiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat\n(>= 3.0.0), withr (>= 2.3.0)",
+        "URL": "https://github.com/rstudio/bookdown,\nhttps://pkgs.rstudio.com/bookdown/",
+        "BugReports": "https://github.com/rstudio/bookdown/issues",
+        "SystemRequirements": "Pandoc (>= 1.17.2)",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "Config/testthat/edition": "3",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-08-13 02:33:03 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  JJ Allaire [ctb],\n  Albert Kim [ctb],\n  Alessandro Samuel-Rosa [ctb],\n  Andrzej Oles [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Aust Frederik [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Bastiaan Quast [ctb],\n  Ben Marwick [ctb],\n  Chester Ismay [ctb],\n  Christophe Dervieux [ctb],\n  Clifton Franklund [ctb],\n  Daniel Emaasit [ctb],\n  David Shuman [ctb],\n  Dean Attali [ctb],\n  Drew Tyre [ctb],\n  Ellis Valentiner [ctb],\n  Frans van Dunne [ctb],\n  Hadley Wickham [ctb],\n  Jeff Allen [ctb],\n  Jennifer Bryan [ctb],\n  Jonathan McPhers [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Joyce Robbins [ctb],\n  Junwen Huang [ctb],\n  Kevin Cheung [ctb],\n  Kevin Ushey [ctb],\n  Kim Seonghyun [ctb],\n  Kirill Muller [ctb],\n  Luciano Selzer [ctb],\n  Matthew Lincoln [ctb],\n  Maximilian Held [ctb],\n  Michael Sachs [ctb],\n  Michal Bojanowski [ctb],\n  Nathan Werth [ctb],\n  Noam Ross [ctb],\n  Peter Hickey [ctb],\n  Pedro Rafael D. Marinho [ctb] (<https://orcid.org/0000-0003-1591-8300>),\n  Romain Lesur [ctb] (<https://orcid.org/0000-0002-0721-5595>),\n  Sahir Bhatnagar [ctb],\n  Shir Dekel [ctb] (<https://orcid.org/0000-0003-1773-2446>),\n  Steve Simpson [ctb],\n  Thierry Onkelinx [ctb] (<https://orcid.org/0000-0001-8804-4216>),\n  Vincent Fulco [ctb],\n  Yixuan Qiu [ctb],\n  Zhuoer Dong [ctb],\n  RStudio, PBC [cph],\n  Bartek Szopka [ctb] (The jQuery Highlight plugin),\n  Zeno Rocha [cph] (clipboard.js library),\n  MathQuill contributors [ctb] (The MathQuill library; authors listed in\n    inst/resources/AUTHORS),\n  FriendCode Inc [cph, ctb] (The gitbook style, with modifications)",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-13 04:40:05 UTC",
+        "Built": "R 4.1.1; ; 2021-08-21 01:42:34 UTC; unix"
+      }
+    },
+    "bslib": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "bslib",
+        "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
+        "Version": "0.3.1",
+        "Authors@R": "c(\n    person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"Bootstrap contributors\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Twitter, Inc\", role = \"cph\",\n    comment = \"Bootstrap library\"),\n    person(\"Javi\", \"Aguilar\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap colorpicker library\"),\n    person(\"Thomas\", \"Park\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootswatch library\"),\n    person(family = \"PayPal\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap accessibility plugin\")\n    )",
+        "Description": "Simplifies custom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap' 'Sass'. Supports both 'Bootstrap' 3 and 4 as well as their various 'Bootswatch' themes. An interactive widget is also provided for previewing themes in real time.",
+        "Depends": "R (>= 2.10)",
+        "Imports": "grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),\njquerylib (>= 0.1.3), rlang",
+        "Suggests": "shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,\ntestthat, withr, rappdirs, curl, magrittr",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "Config/testthat/edition": "3",
+        "Collate": "'bootswatch.R' 'bs-current-theme.R' 'bs-dependencies.R'\n'bs-global.R' 'bs-remove.R' 'bs-theme-layers.R' 'utils.R'\n'bs-theme-preview.R' 'bs-theme-update.R' 'bs-theme.R'\n'deprecated.R' 'files.R' 'imports.R' 'nav-items.R'\n'nav-update.R' 'navs-legacy.R' 'navs.R' 'onLoad.R' 'page.R'\n'precompiled.R' 'print.R' 'shiny-devmode.R' 'utils-shiny.R'\n'utils-tags.R' 'version-default.R' 'versions.R'",
+        "URL": "https://rstudio.github.io/bslib/, https://github.com/rstudio/bslib",
+        "BugReports": "https://github.com/rstudio/bslib/issues",
+        "Config/Needs/website": "rsconnect, renv, r-lib/pkgdown, apreshill/quillt",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-10-06 14:12:58 UTC; cpsievert",
+        "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Joe Cheng [aut],\n  RStudio [cph],\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Javi Aguilar [ctb, cph] (Bootstrap colorpicker library),\n  Thomas Park [ctb, cph] (Bootswatch library),\n  PayPal [ctb, cph] (Bootstrap accessibility plugin)",
+        "Maintainer": "Carson Sievert <carson@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-10-06 15:10:05 UTC",
+        "Built": "R 4.1.0; ; 2021-10-07 12:18:52 UTC; unix"
+      }
+    },
+    "cpp11": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "cpp11",
+        "Title": "A C++11 Interface for R's C Interface",
+        "Version": "0.4.2",
+        "Authors@R": "\n    c(person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\",\n             comment = c(ORCID = \"0000-0002-2739-7082\")),\n      person(given = \"Romain\",\n             family = \"François\",\n             role = c(\"aut\", \"cre\"),\n             email = \"romain@rstudio.com\"),\n      person(given = \"Benjamin\",\n             family = \"Kietzman\",\n             role = \"ctb\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
+        "Description": "Provides a header only, C++11 interface to R's C\n    interface.  Compared to other approaches 'cpp11' strives to be safe\n    against long jumps from the C API as well as C++ exceptions, conform\n    to normal R function semantics and supports interaction with 'ALTREP'\n    vectors.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://cpp11.r-lib.org, https://github.com/r-lib/cpp11",
+        "BugReports": "https://github.com/r-lib/cpp11/issues",
+        "Suggests": "bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,\nknitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,\ntestthat, tibble, utils, vctrs, withr",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
+        "Config/Needs/cpp11/cpp_register": "brio, cli, decor, desc, glue, tibble,\nvctrs",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "SystemRequirements": "C++11",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-11-29 17:26:06 UTC; jhester",
+        "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Romain François [aut, cre],\n  Benjamin Kietzman [ctb],\n  RStudio [cph, fnd]",
+        "Maintainer": "Romain François <romain@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-11-30 09:10:04 UTC",
+        "Built": "R 4.1.0; ; 2021-12-01 13:03:17 UTC; unix"
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "digest",
+        "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n and Winston Chang.",
+        "Version": "0.6.29",
+        "Date": "2021-11-30",
+        "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+        "Title": "Create Compact Hash Digests of R Objects",
+        "Description": "Implementation of a function 'digest()' for the creation of hash\n digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', 'crc32',\n 'xxhash', 'murmurhash', 'spookyhash' and 'blake3' algorithms) permitting easy\n comparison of R language objects, as well as functions such as'hmac()' to\n create hash-based message authentication code. Please note that this package\n is not meant to be deployed for cryptographic purposes for which more\n comprehensive (and widely tested) libraries such as 'OpenSSL' should be\n used.",
+        "URL": "https://github.com/eddelbuettel/digest,\nhttp://dirk.eddelbuettel.com/code/digest.html",
+        "BugReports": "https://github.com/eddelbuettel/digest/issues",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "utils",
+        "License": "GPL (>= 2)",
+        "Suggests": "tinytest, simplermarkdown",
+        "VignetteBuilder": "simplermarkdown",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-11-30 23:41:39 UTC; edd",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-12-01 07:40:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-12-02 12:51:07 UTC; unix"
+      }
+    },
+    "evaluate": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "evaluate",
+        "Type": "Package",
+        "Title": "Parsing and Evaluation Tools that Provide More Details than the\nDefault",
+        "Version": "0.15",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Michael\", \"Lawrence\", role = \"ctb\"),\n    person(\"Thomas\", \"Kluyver\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Adam\", \"Ryczkowski\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Michel\", \"Lang\", role = \"ctb\"),\n    person(\"Karolis\", \"Koncevičius\", role = \"ctb\")\n    )",
+        "Description": "Parsing and evaluation tools that make it easy to recreate the\n    command line behaviour of R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/r-lib/evaluate",
+        "BugReports": "https://github.com/r-lib/evaluate/issues",
+        "Depends": "R (>= 3.0.2)",
+        "Imports": "methods",
+        "Suggests": "covr, ggplot2, lattice, testthat",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-02-18 16:51:14 UTC; yihui",
+        "Author": "Hadley Wickham [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Michael Lawrence [ctb],\n  Thomas Kluyver [ctb],\n  Jeroen Ooms [ctb],\n  Barret Schloerke [ctb],\n  Adam Ryczkowski [ctb],\n  Hiroaki Yutani [ctb],\n  Michel Lang [ctb],\n  Karolis Koncevičius [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-02-18 17:20:02 UTC",
+        "Built": "R 4.1.2; ; 2022-02-19 12:40:11 UTC; unix"
+      }
+    },
+    "fastmap": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "fastmap",
+        "Title": "Fast Data Structures",
+        "Version": "1.1.0",
+        "Authors@R": "c(\n    person(\"Winston\", \"Chang\", email = \"winston@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(given = \"RStudio\", role = c(\"cph\", \"fnd\")),\n    person(given = \"Tessil\", role = \"cph\", comment = \"hopscotch_map library\")\n    )",
+        "Description": "Fast implementation of data structures, including a key-value\n    store, stack, and queue. Environments are commonly used as key-value stores\n    in R, but every time a new key is used, it is added to R's global symbol\n    table, causing a small amount of memory leakage. This can be problematic in\n    cases where many different keys are used. Fastmap avoids this memory leak\n    issue by implementing the map using data structures in C++.",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1",
+        "Suggests": "testthat (>= 2.1.1)",
+        "URL": "https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap",
+        "BugReports": "https://github.com/r-lib/fastmap/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-01-25 20:28:54 UTC; winston",
+        "Author": "Winston Chang [aut, cre],\n  RStudio [cph, fnd],\n  Tessil [cph] (hopscotch_map library)",
+        "Maintainer": "Winston Chang <winston@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-01-25 21:00:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-07-12 06:36:19 UTC; unix"
+      }
+    },
+    "fs": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "fs",
+        "Title": "Cross-Platform File System Operations Based on 'libuv'",
+        "Version": "1.5.2",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"libuv project contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "A cross-platform interface to file system operations, built on\n  top of the 'libuv' C library.",
+        "Depends": "R (>= 3.1)",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "ByteCompile": "true",
+        "Imports": "methods",
+        "SystemRequirements": "GNU make",
+        "RoxygenNote": "7.1.2",
+        "URL": "https://fs.r-lib.org, https://github.com/r-lib/fs",
+        "BugReports": "https://github.com/r-lib/fs/issues",
+        "Copyright": "file COPYRIGHTS",
+        "Suggests": "testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,\nrmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",
+        "VignetteBuilder": "knitr",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-12-08 16:14:56 UTC; gaborcsardi",
+        "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  RStudio [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-12-08 23:00:08 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-12-09 12:55:58 UTC; unix"
+      }
+    },
+    "glue": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "glue",
+        "Title": "Interpreted String Literals",
+        "Version": "1.6.2",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@rstudio.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "An implementation of interpreted string literals, inspired by\n    Python's Literal String Interpolation\n    <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n    <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\n    String Literals\n    <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/tidyverse/glue, https://glue.tidyverse.org/",
+        "BugReports": "https://github.com/tidyverse/glue/issues",
+        "Depends": "R (>= 3.4)",
+        "Imports": "methods",
+        "Suggests": "covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,\nmicrobenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,\ntestthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "true",
+        "Config/Needs/website": "hadley/emo, tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-02-23 22:50:40 UTC; jenny",
+        "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  RStudio [cph, fnd]",
+        "Maintainer": "Jennifer Bryan <jenny@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-02-24 07:50:20 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-02-25 12:27:05 UTC; unix"
+      }
+    },
+    "highr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "highr",
+        "Type": "Package",
+        "Title": "Syntax Highlighting for R Source Code",
+        "Version": "0.9",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Yixuan\", \"Qiu\", role = \"aut\"),\n    person(\"Christopher\", \"Gandrud\", role = \"ctb\"),\n    person(\"Qiang\", \"Li\", role = \"ctb\")\n    )",
+        "Description": "Provides syntax highlighting for R source code. Currently it\n    supports LaTeX and HTML output. Source code of other languages is supported\n    via Andre Simon's highlight package (<http://www.andre-simon.de>).",
+        "Depends": "R (>= 3.2.3)",
+        "Imports": "xfun (>= 0.18)",
+        "Suggests": "knitr, markdown, testit",
+        "License": "GPL",
+        "URL": "https://github.com/yihui/highr",
+        "BugReports": "https://github.com/yihui/highr/issues",
+        "VignetteBuilder": "knitr",
+        "RoxygenNote": "7.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-04-16 21:12:10 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Yixuan Qiu [aut],\n  Christopher Gandrud [ctb],\n  Qiang Li [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-04-16 21:50:05 UTC",
+        "Built": "R 4.1.0; ; 2021-05-26 12:06:12 UTC; unix"
+      }
+    },
+    "htmltools": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "htmltools",
+        "Type": "Package",
+        "Title": "Tools for HTML",
+        "Version": "0.5.2",
+        "Authors@R": "c(\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n  person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n  person(\"Barret\", \"Schloerke\", role = \"aut\", email = \"barret@rstudio.com\", comment = c(ORCID = \"0000-0001-9986-114X\")),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n  person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@rstudio.com\"),\n  person(\"Jeff\", \"Allen\", role = \"aut\", email = \"jeff@rstudio.com\"),\n  person(family = \"RStudio\", role = \"cph\")\n )",
+        "Description": "Tools for HTML generation and output.",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "utils, digest, grDevices, base64enc, rlang (>= 0.4.10),\nfastmap",
+        "Suggests": "markdown, testthat, withr, Cairo, ragg, shiny",
+        "Enhances": "knitr",
+        "License": "GPL (>= 2)",
+        "URL": "https://github.com/rstudio/htmltools",
+        "BugReports": "https://github.com/rstudio/htmltools/issues",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "Collate": "'colors.R' 'html_dependency.R' 'html_escape.R' 'html_print.R'\n'images.R' 'known_tags.R' 'selector.R' 'shim.R' 'tag_query.R'\n'utils.R' 'tags.R' 'template.R'",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-08-17 17:26:06 UTC; cpsievert",
+        "Author": "Joe Cheng [aut],\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>),\n  Yihui Xie [aut],\n  Jeff Allen [aut],\n  RStudio [cph]",
+        "Maintainer": "Carson Sievert <carson@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-25 13:50:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-08-26 11:43:46 UTC; unix"
+      }
+    },
+    "httpuv": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "httpuv",
+        "Type": "Package",
+        "Encoding": "UTF-8",
+        "Title": "HTTP and WebSocket Server Library",
+        "Version": "1.6.2",
+        "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", role = c(\"aut\"), email = \"joe@rstudio.com\"),\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(family = \"RStudio, PBC\", role = \"cph\"),\n    person(\"Hector\", \"Corrada Bravo\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Andrzej\", \"Krzemienski\", role = \"cph\", comment = \"optional.hpp\")\n    )",
+        "Copyright": "RStudio, PBC; Joyent, Inc.; Nginx Inc.; Igor Sysoev; Niels\nProvos; Internet Systems Consortium, Inc.; Alexander Chemeris;\nBerkeley Software Design; Google Inc.; Sony Mobile\nCommunications AB; Alexander Peslyak; Free Software Foundation,\nInc.; X Consortium; Ben Noordhuis; StrongLoop, Inc.; Saúl\nIbarra Corretgé; Bert Belder; Fedor Indutny; libuv project;\nRefael Ackermann; Kenneth MacKay; Emergya; Diego Pettenò; xine\nproject, The Regents of the University of California, Dariusz\nDwornikowski",
+        "Description": "Provides low-level socket and protocol support for handling\n    HTTP and WebSocket requests directly from within R. It is primarily\n    intended as a building block for other packages, rather than making it\n    particularly easy to create complete web applications using httpuv alone.\n    httpuv is built on top of the libuv and http-parser C libraries, both of\n    which were developed by Joyent, Inc. (See LICENSE file for libuv and\n    http-parser license information.)",
+        "License": "GPL (>= 2) | file LICENSE",
+        "Depends": "R (>= 2.15.1)",
+        "Imports": "Rcpp (>= 0.11.0), utils, R6, promises, later (>= 0.8.0)",
+        "LinkingTo": "Rcpp, later",
+        "URL": "https://github.com/rstudio/httpuv",
+        "SystemRequirements": "GNU make, C++11",
+        "RoxygenNote": "7.1.1",
+        "Suggests": "testthat, callr, curl, websocket",
+        "Collate": "'RcppExports.R' 'httpuv.R' 'random_port.R' 'server.R'\n'static_paths.R' 'utils.R'",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-08-18 18:35:05 UTC; barret",
+        "Author": "Joe Cheng [aut],\n  Winston Chang [aut, cre],\n  RStudio, PBC [cph],\n  Hector Corrada Bravo [ctb],\n  Jeroen Ooms [ctb],\n  Andrzej Krzemienski [cph] (optional.hpp)",
+        "Maintainer": "Winston Chang <winston@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-18 20:00:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-08-19 12:07:31 UTC; unix"
+      }
+    },
+    "jquerylib": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "jquerylib",
+        "Title": "Obtain 'jQuery' as an HTML Dependency Object",
+        "Version": "0.1.4",
+        "Authors@R": "c(\n    person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"jQuery Foundation\", role = \"cph\",\n    comment = \"jQuery library and jQuery UI library\"),\n    person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery library; authors listed in inst/lib/jquery-AUTHORS.txt\")\n    )",
+        "Description": "Obtain any major version of 'jQuery' (<https://code.jquery.com/>) and use it in any webpage generated by 'htmltools' (e.g. 'shiny', 'htmlwidgets', and 'rmarkdown').\n    Most R users don't need to use this package directly, but other R packages (e.g. 'shiny', 'rmarkdown', etc.) depend on this package to avoid bundling redundant copies of 'jQuery'.",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "Config/testthat/edition": "3",
+        "RoxygenNote": "7.0.2",
+        "Imports": "htmltools",
+        "Suggests": "testthat",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-04-26 16:40:21 UTC; cpsievert",
+        "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Joe Cheng [aut],\n  RStudio [cph],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/lib/jquery-AUTHORS.txt)",
+        "Maintainer": "Carson Sievert <carson@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-04-26 17:10:02 UTC",
+        "Built": "R 4.1.0; ; 2021-05-26 18:13:24 UTC; unix"
+      }
+    },
+    "jsonlite": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "jsonlite",
+        "Version": "1.8.0",
+        "Title": "A Simple and Robust JSON Parser and Generator for R",
+        "License": "MIT + file LICENSE",
+        "Depends": "methods",
+        "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Duncan\", \"Temple Lang\", role = \"ctb\"),\n    person(\"Lloyd\", \"Hilaiel\", role = \"cph\", comment=\"author of bundled libyajl\"))",
+        "URL": "https://arxiv.org/abs/1403.2805 (paper)",
+        "BugReports": "https://github.com/jeroen/jsonlite/issues",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "VignetteBuilder": "knitr, R.rsp",
+        "Description": "A reasonably fast JSON parser and generator, optimized for statistical \n    data and the web. Offers simple, flexible tools for working with JSON in R, and\n    is particularly powerful for building pipelines and interacting with a web API. \n    The implementation is based on the mapping described in the vignette (Ooms, 2014).\n    In addition to converting JSON data from/to R objects, 'jsonlite' contains \n    functions to stream, validate, and prettify JSON data. The unit tests included \n    with the package verify that all edge cases are encoded and decoded consistently \n    for use with dynamic data in systems and applications.",
+        "Suggests": "httr, curl, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-02-22 09:27:49 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-02-22 11:20:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-02-23 12:32:20 UTC; unix"
+      }
+    },
+    "knitr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "knitr",
+        "Type": "Package",
+        "Title": "A General-Purpose Package for Dynamic Report Generation in R",
+        "Version": "1.39",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Abhraneel\", \"Sarma\", role = \"ctb\"),\n    person(\"Adam\", \"Vogt\", role = \"ctb\"),\n    person(\"Alastair\", \"Andrew\", role = \"ctb\"),\n    person(\"Alex\", \"Zvoleff\", role = \"ctb\"),\n    person(\"Andre\", \"Simon\", role = \"ctb\", comment = \"the CSS files under inst/themes/ were derived from the Highlight package http://www.andre-simon.de\"),\n    person(\"Aron\", \"Atkins\", role = \"ctb\"),\n    person(\"Aaron\", \"Wolen\", role = \"ctb\"),\n    person(\"Ashley\", \"Manton\", role = \"ctb\"),\n    person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n    person(\"Ben\", \"Baumer\", role = \"ctb\"),\n    person(\"Brian\", \"Diggs\", role = \"ctb\"),\n    person(\"Brian\", \"Zhang\", role = \"ctb\"),\n    person(\"Bulat\", \"Yapparov\", role = \"ctb\"),\n    person(\"Cassio\", \"Pereira\", role = \"ctb\"),\n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"David\", \"Hall\", role = \"ctb\"),\n    person(\"David\", \"Hugh-Jones\", role = \"ctb\"),\n    person(\"David\", \"Robinson\", role = \"ctb\"),\n    person(\"Doug\", \"Hemken\", role = \"ctb\"),\n    person(\"Duncan\", \"Murdoch\", role = \"ctb\"),\n    person(\"Elio\", \"Campitelli\", role = \"ctb\"),\n    person(\"Ellis\", \"Hughes\", role = \"ctb\"),\n    person(\"Emily\", \"Riederer\", role = \"ctb\"),\n    person(\"Fabian\", \"Hirschmann\", role = \"ctb\"),\n    person(\"Fitch\", \"Simeon\", role = \"ctb\"),\n    person(\"Forest\", \"Fang\", role = \"ctb\"),\n    person(c(\"Frank\", \"E\", \"Harrell\", \"Jr\"), role = \"ctb\", comment = \"the Sweavel package at inst/misc/Sweavel.sty\"),\n    person(\"Garrick\", \"Aden-Buie\", role = \"ctb\"),\n    person(\"Gregoire\", \"Detrez\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Hao\", \"Zhu\", role = \"ctb\"),\n    person(\"Heewon\", \"Jeon\", role = \"ctb\"),\n    person(\"Henrik\", \"Bengtsson\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Ian\", \"Lyttle\", role = \"ctb\"),\n    person(\"Hodges\", \"Daniel\", role = \"ctb\"),\n    person(\"Jake\", \"Burkhead\", role = \"ctb\"),\n    person(\"James\", \"Manton\", role = \"ctb\"),\n    person(\"Jared\", \"Lander\", role = \"ctb\"),\n    person(\"Jason\", \"Punyon\", role = \"ctb\"),\n    person(\"Javier\", \"Luraschi\", role = \"ctb\"),\n    person(\"Jeff\", \"Arnold\", role = \"ctb\"),\n    person(\"Jenny\", \"Bryan\", role = \"ctb\"),\n    person(\"Jeremy\", \"Ashkenas\", role = c(\"ctb\", \"cph\"), comment = \"the CSS file at inst/misc/docco-classic.css\"),\n    person(\"Jeremy\", \"Stephens\", role = \"ctb\"),\n    person(\"Jim\", \"Hester\", role = \"ctb\"),\n    person(\"Joe\", \"Cheng\", role = \"ctb\"),\n    person(\"Johannes\", \"Ranke\", role = \"ctb\"),\n    person(\"John\", \"Honaker\", role = \"ctb\"),\n    person(\"John\", \"Muschelli\", role = \"ctb\"),\n    person(\"Jonathan\", \"Keane\", role = \"ctb\"),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Johan\", \"Toloe\", role = \"ctb\"),\n    person(\"Jonathan\", \"Sidi\", role = \"ctb\"),\n    person(\"Joseph\", \"Larmarange\", role = \"ctb\"),\n    person(\"Julien\", \"Barnier\", role = \"ctb\"),\n    person(\"Kaiyin\", \"Zhong\", role = \"ctb\"),\n    person(\"Kamil\", \"Slowikowski\", role = \"ctb\"),\n    person(\"Karl\", \"Forner\", role = \"ctb\"),\n    person(c(\"Kevin\", \"K.\"), \"Smith\", role = \"ctb\"),\n    person(\"Kirill\", \"Mueller\", role = \"ctb\"),\n    person(\"Kohske\", \"Takahashi\", role = \"ctb\"),\n    person(\"Lorenz\", \"Walthert\", role = \"ctb\"),\n    person(\"Lucas\", \"Gallindo\", role = \"ctb\"),\n    person(\"Marius\", \"Hofert\", role = \"ctb\"),\n    person(\"Martin\", \"Modrák\", role = \"ctb\"),\n    person(\"Michael\", \"Chirico\", role = \"ctb\"),\n    person(\"Michael\", \"Friendly\", role = \"ctb\"),\n    person(\"Michal\", \"Bojanowski\", role = \"ctb\"),\n    person(\"Michel\", \"Kuhlmann\", role = \"ctb\"),\n    person(\"Miller\", \"Patrick\", role = \"ctb\"),\n    person(\"Nacho\", \"Caballero\", role = \"ctb\"),\n    person(\"Nick\", \"Salkowski\", role = \"ctb\"),\n    person(\"Niels Richard\", \"Hansen\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Obada\", \"Mahdi\", role = \"ctb\"),\n    person(\"Pavel N.\", \"Krivitsky\", role = \"ctb\", comment=c(ORCID = \"0000-0002-9101-3362\")),\n    person(\"Qiang\", \"Li\", role = \"ctb\"),\n    person(\"Ramnath\", \"Vaidyanathan\", role = \"ctb\"),\n    person(\"Richard\", \"Cotton\", role = \"ctb\"),\n    person(\"Robert\", \"Krzyzanowski\", role = \"ctb\"),\n    person(\"Romain\", \"Francois\", role = \"ctb\"),\n    person(\"Ruaridh\", \"Williamson\", role = \"ctb\"),\n    person(\"Scott\", \"Kostyshak\", role = \"ctb\"),\n    person(\"Sebastian\", \"Meyer\", role = \"ctb\"),\n    person(\"Sietse\", \"Brouwer\", role = \"ctb\"),\n    person(c(\"Simon\", \"de\"), \"Bernard\", role = \"ctb\"),\n    person(\"Sylvain\", \"Rousseau\", role = \"ctb\"),\n    person(\"Taiyun\", \"Wei\", role = \"ctb\"),\n    person(\"Thibaut\", \"Assus\", role = \"ctb\"),\n    person(\"Thibaut\", \"Lamadon\", role = \"ctb\"),\n    person(\"Thomas\", \"Leeper\", role = \"ctb\"),\n    person(\"Tim\", \"Mastny\", role = \"ctb\"),\n    person(\"Tom\", \"Torsney-Weir\", role = \"ctb\"),\n    person(\"Trevor\", \"Davis\", role = \"ctb\"),\n    person(\"Viktoras\", \"Veitas\", role = \"ctb\"),\n    person(\"Weicheng\", \"Zhu\", role = \"ctb\"),\n    person(\"Wush\", \"Wu\", role = \"ctb\"),\n    person(\"Zachary\", \"Foster\", role = \"ctb\"),\n    person(\"Zhian N.\", \"Kamvar\", role = \"ctb\", comment = c(ORCID = \"0000-0003-1458-7108\"))\n    )",
+        "Description": "Provides a general-purpose tool for dynamic report generation in R\n    using Literate Programming techniques.",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "evaluate (>= 0.15), highr, methods, stringr (>= 0.6), yaml (>=\n2.1.19), xfun (>= 0.29), tools",
+        "Suggests": "markdown, formatR, testit, digest, rgl (>= 0.95.1201),\ncodetools, rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice\n(>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1),\nmagick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>=\n0.4-1), showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0),\ntargets (>= 0.6.0)",
+        "License": "GPL",
+        "URL": "https://yihui.org/knitr/",
+        "BugReports": "https://github.com/yihui/knitr/issues",
+        "Encoding": "UTF-8",
+        "VignetteBuilder": "knitr",
+        "SystemRequirements": "Package vignettes based on R Markdown v2 or\nreStructuredText require Pandoc (http://pandoc.org). The\nfunction rst2pdf() requires rst2pdf\n(https://github.com/rst2pdf/rst2pdf).",
+        "Collate": "'block.R' 'cache.R' 'utils.R' 'citation.R' 'hooks-html.R'\n'plot.R' 'defaults.R' 'concordance.R' 'engine.R' 'highlight.R'\n'themes.R' 'header.R' 'hooks-asciidoc.R' 'hooks-chunk.R'\n'hooks-extra.R' 'hooks-latex.R' 'hooks-md.R' 'hooks-rst.R'\n'hooks-textile.R' 'hooks.R' 'output.R' 'package.R' 'pandoc.R'\n'params.R' 'parser.R' 'pattern.R' 'rocco.R' 'spin.R' 'table.R'\n'template.R' 'utils-conversion.R' 'utils-rd2html.R'\n'utils-sweave.R' 'utils-upload.R' 'utils-vignettes.R' 'zzz.R'",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-04-26 22:08:17 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Abhraneel Sarma [ctb],\n  Adam Vogt [ctb],\n  Alastair Andrew [ctb],\n  Alex Zvoleff [ctb],\n  Andre Simon [ctb] (the CSS files under inst/themes/ were derived from\n    the Highlight package http://www.andre-simon.de),\n  Aron Atkins [ctb],\n  Aaron Wolen [ctb],\n  Ashley Manton [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Ben Baumer [ctb],\n  Brian Diggs [ctb],\n  Brian Zhang [ctb],\n  Bulat Yapparov [ctb],\n  Cassio Pereira [ctb],\n  Christophe Dervieux [ctb],\n  David Hall [ctb],\n  David Hugh-Jones [ctb],\n  David Robinson [ctb],\n  Doug Hemken [ctb],\n  Duncan Murdoch [ctb],\n  Elio Campitelli [ctb],\n  Ellis Hughes [ctb],\n  Emily Riederer [ctb],\n  Fabian Hirschmann [ctb],\n  Fitch Simeon [ctb],\n  Forest Fang [ctb],\n  Frank E Harrell Jr [ctb] (the Sweavel package at inst/misc/Sweavel.sty),\n  Garrick Aden-Buie [ctb],\n  Gregoire Detrez [ctb],\n  Hadley Wickham [ctb],\n  Hao Zhu [ctb],\n  Heewon Jeon [ctb],\n  Henrik Bengtsson [ctb],\n  Hiroaki Yutani [ctb],\n  Ian Lyttle [ctb],\n  Hodges Daniel [ctb],\n  Jake Burkhead [ctb],\n  James Manton [ctb],\n  Jared Lander [ctb],\n  Jason Punyon [ctb],\n  Javier Luraschi [ctb],\n  Jeff Arnold [ctb],\n  Jenny Bryan [ctb],\n  Jeremy Ashkenas [ctb, cph] (the CSS file at\n    inst/misc/docco-classic.css),\n  Jeremy Stephens [ctb],\n  Jim Hester [ctb],\n  Joe Cheng [ctb],\n  Johannes Ranke [ctb],\n  John Honaker [ctb],\n  John Muschelli [ctb],\n  Jonathan Keane [ctb],\n  JJ Allaire [ctb],\n  Johan Toloe [ctb],\n  Jonathan Sidi [ctb],\n  Joseph Larmarange [ctb],\n  Julien Barnier [ctb],\n  Kaiyin Zhong [ctb],\n  Kamil Slowikowski [ctb],\n  Karl Forner [ctb],\n  Kevin K. Smith [ctb],\n  Kirill Mueller [ctb],\n  Kohske Takahashi [ctb],\n  Lorenz Walthert [ctb],\n  Lucas Gallindo [ctb],\n  Marius Hofert [ctb],\n  Martin Modrák [ctb],\n  Michael Chirico [ctb],\n  Michael Friendly [ctb],\n  Michal Bojanowski [ctb],\n  Michel Kuhlmann [ctb],\n  Miller Patrick [ctb],\n  Nacho Caballero [ctb],\n  Nick Salkowski [ctb],\n  Niels Richard Hansen [ctb],\n  Noam Ross [ctb],\n  Obada Mahdi [ctb],\n  Pavel N. Krivitsky [ctb] (<https://orcid.org/0000-0002-9101-3362>),\n  Qiang Li [ctb],\n  Ramnath Vaidyanathan [ctb],\n  Richard Cotton [ctb],\n  Robert Krzyzanowski [ctb],\n  Romain Francois [ctb],\n  Ruaridh Williamson [ctb],\n  Scott Kostyshak [ctb],\n  Sebastian Meyer [ctb],\n  Sietse Brouwer [ctb],\n  Simon de Bernard [ctb],\n  Sylvain Rousseau [ctb],\n  Taiyun Wei [ctb],\n  Thibaut Assus [ctb],\n  Thibaut Lamadon [ctb],\n  Thomas Leeper [ctb],\n  Tim Mastny [ctb],\n  Tom Torsney-Weir [ctb],\n  Trevor Davis [ctb],\n  Viktoras Veitas [ctb],\n  Weicheng Zhu [ctb],\n  Wush Wu [ctb],\n  Zachary Foster [ctb],\n  Zhian N. Kamvar [ctb] (<https://orcid.org/0000-0003-1458-7108>)",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-04-26 23:30:05 UTC",
+        "Built": "R 4.1.2; ; 2022-04-28 11:06:32 UTC; unix"
+      }
+    },
+    "later": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "later",
+        "Type": "Package",
+        "Title": "Utilities for Scheduling Functions to Execute Later with Event\nLoops",
+        "Version": "1.3.0",
+        "Authors@R": "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Joe\", \"Cheng\", role = c(\"aut\"), email = \"joe@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(\"Marcus\", \"Geelnard\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\"),\n    person(\"Evan\", \"Nemerson\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\")\n    )",
+        "Description": "Executes arbitrary R or C functions some time after the current\n    time, after the R execution stack has emptied. The functions are scheduled\n    in an event loop.",
+        "URL": "https://github.com/r-lib/later",
+        "BugReports": "https://github.com/r-lib/later/issues",
+        "License": "MIT + file LICENSE",
+        "Imports": "Rcpp (>= 0.12.9), rlang",
+        "LinkingTo": "Rcpp",
+        "RoxygenNote": "7.1.1",
+        "SystemRequirements": "C++11",
+        "Suggests": "knitr, rmarkdown, testthat (>= 2.1.0)",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-08-18 14:03:28 UTC; barret",
+        "Author": "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  RStudio [cph],\n  Marcus Geelnard [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/),\n  Evan Nemerson [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/)",
+        "Maintainer": "Winston Chang <winston@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-18 16:30:06 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-08-19 12:00:08 UTC; unix"
+      }
+    },
+    "magrittr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Type": "Package",
+        "Package": "magrittr",
+        "Title": "A Forward-Pipe Operator for R",
+        "Version": "2.0.3",
+        "Authors@R": "c(\n    person(\"Stefan Milton\", \"Bache\", , \"stefan@stefanbache.dk\", role = c(\"aut\", \"cph\"),\n           comment = \"Original author and creator of magrittr\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = \"cre\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "Provides a mechanism for chaining commands with a new\n    forward-pipe operator, %>%. This operator will forward a value, or the\n    result of an expression, into the next function call/expression.\n    There is flexible support for the type of right-hand side expressions.\n    For more information, see package vignette.  To quote Rene Magritte,\n    \"Ceci n'est pas un pipe.\"",
+        "License": "MIT + file LICENSE",
+        "URL": "https://magrittr.tidyverse.org,\nhttps://github.com/tidyverse/magrittr",
+        "BugReports": "https://github.com/tidyverse/magrittr/issues",
+        "Depends": "R (>= 3.4.0)",
+        "Suggests": "covr, knitr, rlang, rmarkdown, testthat",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "Yes",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-29 09:34:37 UTC; lionel",
+        "Author": "Stefan Milton Bache [aut, cph] (Original author and creator of\n    magrittr),\n  Hadley Wickham [aut],\n  Lionel Henry [cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-30 07:30:09 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-31 11:35:48 UTC; unix"
+      }
+    },
+    "mime": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "mime",
+        "Type": "Package",
+        "Title": "Map Filenames to MIME Types",
+        "Version": "0.12",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Jeffrey\", \"Horner\", role = \"ctb\"),\n    person(\"Beilei\", \"Bian\", role = \"ctb\")\n    )",
+        "Description": "Guesses the MIME type from a filename extension using the data\n    derived from /etc/mime.types in UNIX-type systems.",
+        "Imports": "tools",
+        "License": "GPL",
+        "URL": "https://github.com/yihui/mime",
+        "BugReports": "https://github.com/yihui/mime/issues",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-09-28 02:06:04 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jeffrey Horner [ctb],\n  Beilei Bian [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-09-28 05:00:05 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-09-28 11:53:05 UTC; unix"
+      }
+    },
+    "pagedown": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "pagedown",
+        "Type": "Package",
+        "Title": "Paginate the HTML Output of R Markdown with CSS for Print",
+        "Version": "0.20",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Romain\", \"Lesur\", role = c(\"aut\", \"cph\"), comment = c(ORCID = \"0000-0002-0721-5595\")),\n  person(\"Brent\", \"Thorne\", role = \"aut\", comment = c(ORCID = \"0000-0002-1099-3857\")),\n  person(\"Xianying\", \"Tan\", role = \"aut\", comment = c(ORCID = \"0000-0002-6072-3521\")),\n  person(\"Christophe\", \"Dervieux\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0003-4474-2498\")),\n  person(\"Atsushi\", \"Yasumoto\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0002-8335-495X\")),\n  person(family = \"RStudio, PBC\", role = \"cph\"),\n  person(\"Adam\", \"Hyde\", role = \"ctb\", comment = \"paged.js in resources/js/\"),\n  person(\"Min-Zhong\", \"Lu\", role = \"ctb\", comment = \"resume.css in resources/css/\"),\n  person(\"Zulko\", role = \"ctb\", comment = \"poster-relaxed.css in resources/css/\"),\n  person()\n  )",
+        "Description": "Use the paged media properties in CSS and the JavaScript\n  library 'paged.js' to split the content of an HTML document into discrete\n  pages. Each page can have its page size, page numbers, margin boxes, and\n  running headers, etc. Applications of this package include books, letters,\n  reports, papers, business cards, resumes, and posters.",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "rmarkdown (>= 2.13), bookdown (>= 0.8), htmltools, jsonlite,\nlater (>= 1.0.0), processx, servr (>= 0.23), httpuv, xfun,\nwebsocket",
+        "Suggests": "promises, testit, xaringan, pdftools, revealjs, covr, xml2",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/rstudio/pagedown",
+        "BugReports": "https://github.com/rstudio/pagedown/issues",
+        "SystemRequirements": "Pandoc (>= 2.2.3)",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-12-13 05:29:20 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Romain Lesur [aut, cph] (<https://orcid.org/0000-0002-0721-5595>),\n  Brent Thorne [aut] (<https://orcid.org/0000-0002-1099-3857>),\n  Xianying Tan [aut] (<https://orcid.org/0000-0002-6072-3521>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  RStudio, PBC [cph],\n  Adam Hyde [ctb] (paged.js in resources/js/),\n  Min-Zhong Lu [ctb] (resume.css in resources/css/),\n  Zulko [ctb] (poster-relaxed.css in resources/css/)",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-12-13 05:50:02 UTC",
+        "Built": "R 4.1.2; ; 2022-12-13 11:53:05 UTC; unix"
+      }
+    },
+    "processx": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "processx",
+        "Title": "Execute and Control System Processes",
+        "Version": "3.5.3",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\", \"cph\"),\n           comment = c(ORCID = \"0000-0001-7098-9676\")),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\")),\n    person(\"Mango Solutions\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "Tools to run system processes in the background.  It can\n    check if a background process is running; wait on a background process\n    to finish; get the exit status of finished processes; kill background\n    processes. It can read the standard output and error of the processes,\n    using non-blocking connections. 'processx' can poll a process for\n    standard output or error, with a timeout. It can also poll several\n    processes at once.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://processx.r-lib.org,\nhttps://github.com/r-lib/processx#readme",
+        "BugReports": "https://github.com/r-lib/processx/issues",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "ps (>= 1.2.0), R6, utils",
+        "Suggests": "callr (>= 3.7.0), cli (>= 1.1.0), codetools, covr, curl,\ndebugme, parallel, testthat (>= 3.0.0), withr",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-25 15:11:53 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre, cph] (<https://orcid.org/0000-0001-7098-9676>),\n  Winston Chang [aut],\n  RStudio [cph, fnd],\n  Mango Solutions [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-25 15:40:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-26 11:40:09 UTC; unix"
+      }
+    },
+    "promises": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "promises",
+        "Type": "Package",
+        "Title": "Abstractions for Promise-Based Asynchronous Programming",
+        "Version": "1.2.0.1",
+        "Authors@R": "c(\n      person(\"Joe\", \"Cheng\", email = \"joe@rstudio.com\", role = c(\"aut\", \"cre\")),\n      person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "Provides fundamental abstractions for doing asynchronous programming\n    in R using promises. Asynchronous programming is useful for allowing a single\n    R process to orchestrate multiple tasks in the background while also attending\n    to something else. Semantics are similar to 'JavaScript' promises, but with a\n    syntax that is idiomatic R.",
+        "License": "MIT + file LICENSE",
+        "Imports": "R6, Rcpp, later, rlang, stats, magrittr",
+        "Suggests": "testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,\nknitr, rmarkdown, vembedr, spelling",
+        "LinkingTo": "later, Rcpp",
+        "RoxygenNote": "7.1.1",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "VignetteBuilder": "knitr",
+        "URL": "https://rstudio.github.io/promises/,\nhttps://github.com/rstudio/promises",
+        "BugReports": "https://github.com/rstudio/promises/issues",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-02-11 18:18:47 UTC; barret",
+        "Author": "Joe Cheng [aut, cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Joe Cheng <joe@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-02-11 19:00:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-05-26 18:14:06 UTC; unix"
+      }
+    },
+    "ps": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "ps",
+        "Title": "List, Query, Manipulate System Processes",
+        "Version": "1.7.0",
+        "Authors@R": "c(\n    person(\"Jay\", \"Loden\", role = \"aut\"),\n    person(\"Dave\", \"Daeschler\", role = \"aut\"),\n    person(\"Giampaolo\", \"Rodola'\", role = \"aut\"),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "List, query and manipulate all system processes, on\n    'Windows', 'Linux' and 'macOS'.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/r-lib/ps#readme, https://ps.r-lib.org/",
+        "BugReports": "https://github.com/r-lib/ps/issues",
+        "Depends": "R (>= 3.4)",
+        "Imports": "utils",
+        "Suggests": "callr, covr, curl, pingr, processx (>= 3.1.0), R6, rlang,\ntestthat (>= 3.0.0), tibble",
+        "Biarch": "true",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2.9000",
+        "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-04-23 15:48:31 UTC; gaborcsardi",
+        "Author": "Jay Loden [aut],\n  Dave Daeschler [aut],\n  Giampaolo Rodola' [aut],\n  Gábor Csárdi [aut, cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-04-23 16:10:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-04-24 10:23:03 UTC; unix"
+      }
+    },
+    "rappdirs": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Type": "Package",
+        "Package": "rappdirs",
+        "Title": "Application Directories: Determine Where to Save Data, Caches,\nand Logs",
+        "Version": "0.3.3",
+        "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"trl\", \"cre\", \"cph\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = \"cph\"),\n      person(given = \"Sridhar\",\n             family = \"Ratnakumar\",\n             role = \"aut\"),\n      person(given = \"Trent\",\n             family = \"Mick\",\n             role = \"aut\"),\n      person(given = \"ActiveState\",\n             role = \"cph\",\n             comment = \"R/appdir.r, R/cache.r, R/data.r, R/log.r translated from appdirs\"),\n      person(given = \"Eddy\",\n             family = \"Petrisor\",\n             role = \"ctb\"),\n      person(given = \"Trevor\",\n             family = \"Davis\",\n             role = c(\"trl\", \"aut\")),\n      person(given = \"Gabor\",\n             family = \"Csardi\",\n             role = \"ctb\"),\n      person(given = \"Gregory\",\n             family = \"Jefferis\",\n             role = \"ctb\"))",
+        "Description": "An easy way to determine which directories on the\n    users computer you should use to save data, caches and logs. A port of\n    Python's 'Appdirs' (<https://github.com/ActiveState/appdirs>) to\n    R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rappdirs.r-lib.org, https://github.com/r-lib/rappdirs",
+        "BugReports": "https://github.com/r-lib/rappdirs/issues",
+        "Depends": "R (>= 3.2)",
+        "Suggests": "roxygen2, testthat (>= 3.0.0), covr, withr",
+        "Copyright": "Original python appdirs module copyright (c) 2010\nActiveState Software Inc. R port copyright Hadley Wickham,\nRStudio. See file LICENSE for details.",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.1",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-01-28 22:29:57 UTC; hadley",
+        "Author": "Hadley Wickham [trl, cre, cph],\n  RStudio [cph],\n  Sridhar Ratnakumar [aut],\n  Trent Mick [aut],\n  ActiveState [cph] (R/appdir.r, R/cache.r, R/data.r, R/log.r translated\n    from appdirs),\n  Eddy Petrisor [ctb],\n  Trevor Davis [trl, aut],\n  Gabor Csardi [ctb],\n  Gregory Jefferis [ctb]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-01-31 05:40:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-05-25 20:51:29 UTC; unix"
+      }
+    },
+    "rlang": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "rlang",
+        "Version": "1.0.2",
+        "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
+        "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "License": "MIT + file LICENSE",
+        "ByteCompile": "true",
+        "Biarch": "true",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "utils",
+        "Suggests": "cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,\nmethods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,\nusethis, vctrs (>= 0.2.3), withr",
+        "Enhances": "winch",
+        "SystemRequirements": "C++11",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "URL": "https://rlang.r-lib.org, https://github.com/r-lib/rlang",
+        "BugReports": "https://github.com/r-lib/rlang/issues",
+        "Config/testthat/edition": "3",
+        "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-04 12:15:17 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  RStudio [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-04 15:30:06 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-05 12:40:48 UTC; unix"
+      }
+    },
+    "rmarkdown": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Type": "Package",
+        "Package": "rmarkdown",
+        "Title": "Dynamic Documents for R",
+        "Version": "2.14",
+        "Authors@R": "c(\n    person(\"JJ\", \"Allaire\", , \"jj@rstudio.com\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", , \"xie@yihui.name\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Jonathan\", \"McPherson\", , \"jonathan@rstudio.com\", role = \"aut\"),\n    person(\"Javier\", \"Luraschi\", , \"javier@rstudio.com\", role = \"aut\"),\n    person(\"Kevin\", \"Ushey\", , \"kevin@rstudio.com\", role = \"aut\"),\n    person(\"Aron\", \"Atkins\", , \"aron@rstudio.com\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Joe\", \"Cheng\", , \"joe@rstudio.com\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", , \"winston@rstudio.com\", role = \"aut\"),\n    person(\"Richard\", \"Iannone\", , \"rich@rstudio.com\", role = \"aut\", comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Andrew\", \"Dunning\", role = \"ctb\", comment = c(ORCID = \"0000-0003-0464-5036\")),\n    person(\"Atsushi\", \"Yasumoto\", role = c(\"ctb\", \"cph\"), comment = c(ORCID = \"0000-0002-8335-495X\", cph = \"Number sections Lua filter\")),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Carson\", \"Sievert\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4958-2844\")), \n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"Devon\", \"Ryan\", , \"dpryan79@gmail.com\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8549-0971\")),\n    person(\"Frederik\", \"Aust\", , \"frederik.aust@uni-koeln.de\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n    person(\"Jeff\", \"Allen\", , \"jeff@rstudio.com\", role = \"ctb\"), \n    person(\"JooYoung\", \"Seo\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n    person(\"Malcolm\", \"Barrett\", role = \"ctb\"),\n    person(\"Rob\", \"Hyndman\", , \"Rob.Hyndman@monash.edu\", role = \"ctb\"),\n    person(\"Romain\", \"Lesur\", role = \"ctb\"),\n    person(\"Roy\", \"Storey\", role = \"ctb\"),\n    person(\"Ruben\", \"Arslan\", , \"ruben.arslan@uni-goettingen.de\", role = \"ctb\"),\n    person(\"Sergio\", \"Oller\", role = \"ctb\"),\n    person(, \"RStudio, PBC\", role = \"cph\"),\n    person(, \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt\"),\n    person(\"Mark\", \"Otto\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(\"Jacob\", \"Thornton\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(, \"Bootstrap contributors\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(, \"Twitter, Inc\", role = \"cph\", comment = \"Bootstrap library\"),\n    person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"), comment = \"html5shiv library\"),\n    person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"), comment = \"Respond.js library\"),\n    person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"), comment = \"highlight.js library\"),\n    person(\"Greg\", \"Franko\", role = c(\"ctb\", \"cph\"), comment = \"tocify library\"),\n    person(\"John\", \"MacFarlane\", role = c(\"ctb\", \"cph\"), comment = \"Pandoc templates\"),\n    person(, \"Google, Inc.\", role = c(\"ctb\", \"cph\"), comment = \"ioslides library\"),\n    person(\"Dave\", \"Raggett\", role = \"ctb\", comment = \"slidy library\"),\n    person(, \"W3C\", role = \"cph\", comment = \"slidy library\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"), comment = \"Font-Awesome\"),\n    person(\"Ben\", \"Sperry\", role = \"ctb\", comment = \"Ionicons\"),\n    person(, \"Drifty\", role = \"cph\", comment = \"Ionicons\"),\n    person(\"Aidan\", \"Lister\", role = c(\"ctb\", \"cph\"), comment = \"jQuery StickyTabs\"),\n    person(\"Benct Philip\", \"Jonsson\", role = c(\"ctb\", \"cph\"), comment = \"pagebreak Lua filter\"),\n    person(\"Albert\", \"Krewinkel\", role = c(\"ctb\", \"cph\"), comment = \"pagebreak Lua filter\")\n  )",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Description": "Convert R Markdown documents into a variety of formats.",
+        "License": "GPL-3",
+        "URL": "https://github.com/rstudio/rmarkdown,\nhttps://pkgs.rstudio.com/rmarkdown/",
+        "BugReports": "https://github.com/rstudio/rmarkdown/issues",
+        "Depends": "R (>= 3.0)",
+        "Imports": "bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.3.5),\njquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=\n1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml\n(>= 2.1.19)",
+        "Suggests": "digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex\n(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=\n3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "rstudio/quillt, pkgdown",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-04-25 18:22:36 UTC; yihui",
+        "Author": "JJ Allaire [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jonathan McPherson [aut],\n  Javier Luraschi [aut],\n  Kevin Ushey [aut],\n  Aron Atkins [aut],\n  Hadley Wickham [aut],\n  Joe Cheng [aut],\n  Winston Chang [aut],\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Andrew Dunning [ctb] (<https://orcid.org/0000-0003-0464-5036>),\n  Atsushi Yasumoto [ctb, cph] (<https://orcid.org/0000-0002-8335-495X>,\n    Number sections Lua filter),\n  Barret Schloerke [ctb],\n  Carson Sievert [ctb] (<https://orcid.org/0000-0002-4958-2844>),\n  Christophe Dervieux [ctb],\n  Devon Ryan [ctb] (<https://orcid.org/0000-0002-8549-0971>),\n  Frederik Aust [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Jeff Allen [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Malcolm Barrett [ctb],\n  Rob Hyndman [ctb],\n  Romain Lesur [ctb],\n  Roy Storey [ctb],\n  Ruben Arslan [ctb],\n  Sergio Oller [ctb],\n  RStudio, PBC [cph],\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/rmd/h/jqueryui-AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Alexander Farkas [ctb, cph] (html5shiv library),\n  Scott Jehl [ctb, cph] (Respond.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  Greg Franko [ctb, cph] (tocify library),\n  John MacFarlane [ctb, cph] (Pandoc templates),\n  Google, Inc. [ctb, cph] (ioslides library),\n  Dave Raggett [ctb] (slidy library),\n  W3C [cph] (slidy library),\n  Dave Gandy [ctb, cph] (Font-Awesome),\n  Ben Sperry [ctb] (Ionicons),\n  Drifty [cph] (Ionicons),\n  Aidan Lister [ctb, cph] (jQuery StickyTabs),\n  Benct Philip Jonsson [ctb, cph] (pagebreak Lua filter),\n  Albert Krewinkel [ctb, cph] (pagebreak Lua filter)",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-04-25 19:20:02 UTC",
+        "Built": "R 4.1.2; ; 2022-04-28 11:13:57 UTC; unix"
+      }
+    },
+    "sass": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Type": "Package",
+        "Package": "sass",
+        "Version": "0.4.1",
+        "Title": "Syntactically Awesome Style Sheets ('Sass')",
+        "Description": "An 'SCSS' compiler, powered by the 'LibSass' library. With this,\n    R developers can use variables, inheritance, and functions to generate\n    dynamic style sheets. The package uses the 'Sass CSS' extension language,\n    which is stable, powerful, and CSS compatible.",
+        "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", , \"joe@rstudio.com\", \"aut\"),\n    person(\"Timothy\", \"Mastny\", , \"tim.mastny@gmail.com\", \"aut\"),\n    person(\"Richard\", \"Iannone\", , \"rich@rstudio.com\", \"aut\",\n       comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Barret\", \"Schloerke\", , \"barret@rstudio.com\", \"aut\",\n           comment = c(ORCID = \"0000-0001-9986-114X\")),\n    person(\"Carson\", \"Sievert\", , \"carson@rstudio.com\", c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Christophe\", \"Dervieux\", , \"cderv@rstudio.com\", c(\"ctb\"),\n           comment = c(ORCID = \"0000-0003-4474-2498\")),\n    person(family = \"RStudio\", role = c(\"cph\", \"fnd\")),\n    person(family = \"Sass Open Source Foundation\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Greter\", \"Marcel\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Mifsud\", \"Michael\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Hampton\", \"Catlin\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Natalie\", \"Weizenbaum\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Chris\", \"Eppstein\", role = c(\"ctb\", \"cph\"),\n           comment = \"LibSass library\"),\n    person(\"Adams\", \"Joseph\", role = c(\"ctb\", \"cph\"),\n           comment = \"json.cpp\"),\n    person(\"Trifunovic\", \"Nemanja\", role = c(\"ctb\", \"cph\"),\n           comment = \"utf8.h\")\n    )",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rstudio.github.io/sass/, https://github.com/rstudio/sass",
+        "BugReports": "https://github.com/rstudio/sass/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "SystemRequirements": "GNU make",
+        "Imports": "fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",
+        "Suggests": "testthat, knitr, rmarkdown, withr, shiny, curl",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-23 16:15:53 UTC; cpsievert",
+        "Author": "Joe Cheng [aut],\n  Timothy Mastny [aut],\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  RStudio [cph, fnd],\n  Sass Open Source Foundation [ctb, cph] (LibSass library),\n  Greter Marcel [ctb, cph] (LibSass library),\n  Mifsud Michael [ctb, cph] (LibSass library),\n  Hampton Catlin [ctb, cph] (LibSass library),\n  Natalie Weizenbaum [ctb, cph] (LibSass library),\n  Chris Eppstein [ctb, cph] (LibSass library),\n  Adams Joseph [ctb, cph] (json.cpp),\n  Trifunovic Nemanja [ctb, cph] (utf8.h)",
+        "Maintainer": "Carson Sievert <carson@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-23 17:10:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-24 11:54:45 UTC; unix"
+      }
+    },
+    "servr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "servr",
+        "Type": "Package",
+        "Title": "A Simple HTTP Server to Serve Static Files or Dynamic Documents",
+        "Version": "0.27",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Carson\", \"Sievert\", role = \"ctb\"),\n  person(\"Jesse\", \"Anderson\", role = \"ctb\"),\n  person(\"Ramnath\", \"Vaidyanathan\", role = \"ctb\"),\n  person(\"Romain\", \"Lesur\", role = \"ctb\"),\n  person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n  person()\n  )",
+        "Description": "Start an HTTP server in R to serve static files, or dynamic\n    documents that can be converted to HTML files (e.g., R Markdown) under a\n    given directory.",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "mime (>= 0.2), httpuv (>= 1.5.2), xfun, jsonlite",
+        "Suggests": "tools, later, rstudioapi, knitr (>= 1.9), rmarkdown",
+        "License": "GPL",
+        "URL": "https://github.com/yihui/servr",
+        "BugReports": "https://github.com/yihui/servr/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-05-01 21:26:21 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Carson Sievert [ctb],\n  Jesse Anderson [ctb],\n  Ramnath Vaidyanathan [ctb],\n  Romain Lesur [ctb],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-05-02 18:30:02 UTC",
+        "Built": "R 4.1.2; ; 2023-05-03 11:17:13 UTC; unix"
+      }
+    },
+    "stringi": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "stringi",
+        "Version": "1.7.6",
+        "Date": "2021-11-29",
+        "Title": "Character String Processing Facilities",
+        "Description": "A collection of character string/text/natural language\n    processing tools for pattern searching (e.g., with 'Java'-like regular\n    expressions or the 'Unicode' collation algorithm), random string generation,\n    case mapping, string transliteration, concatenation, sorting, padding,\n    wrapping, Unicode normalisation, date-time formatting and parsing,\n    and many more. They are fast, consistent, convenient, and -\n    thanks to 'ICU' (International Components for Unicode) -\n    portable across all locales and platforms.",
+        "URL": "https://stringi.gagolewski.com/ https://icu.unicode.org/",
+        "BugReports": "https://github.com/gagolews/stringi/issues",
+        "SystemRequirements": "C++11, ICU4C (>= 55, optional)",
+        "Type": "Package",
+        "Depends": "R (>= 3.1)",
+        "Imports": "tools, utils, stats",
+        "Biarch": "TRUE",
+        "License": "file LICENSE",
+        "Author": "Marek Gagolewski [aut, cre, cph] (<https://orcid.org/0000-0003-0637-6028>),\n    Bartek Tartanus [ctb], and others (stringi source code);\n    Unicode, Inc. and others (ICU4C source code, Unicode Character Database)",
+        "Maintainer": "Marek Gagolewski <marek@gagolewski.com>",
+        "RoxygenNote": "7.1.2",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-11-28 23:34:08 UTC; gagolews",
+        "License_is_FOSS": "yes",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-11-29 09:00:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-11-30 12:53:46 UTC; unix"
+      }
+    },
+    "stringr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "stringr",
+        "Title": "Simple, Consistent Wrappers for Common String Operations",
+        "Version": "1.4.0",
+        "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\", \"cph\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
+        "Description": "A consistent, simple and easy to use set of\n    wrappers around the fantastic 'stringi' package. All function and\n    argument names (and positions) are consistent, all functions deal with\n    \"NA\"'s and zero length vectors in the same way, and the output from\n    one function is easy to feed into the input of another.",
+        "License": "GPL-2 | file LICENSE",
+        "URL": "http://stringr.tidyverse.org, https://github.com/tidyverse/stringr",
+        "BugReports": "https://github.com/tidyverse/stringr/issues",
+        "Depends": "R (>= 3.1)",
+        "Imports": "glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",
+        "Suggests": "covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "6.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-02-09 16:03:19 UTC; hadley",
+        "Author": "Hadley Wickham [aut, cre, cph],\n  RStudio [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-02-10 03:40:03 UTC",
+        "Built": "R 4.1.0; ; 2021-05-20 13:13:20 UTC; unix"
+      }
+    },
+    "tinytex": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "tinytex",
+        "Type": "Package",
+        "Title": "Helper Functions to Install and Maintain TeX Live, and Compile\nLaTeX Documents",
+        "Version": "0.38",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(family = \"RStudio, PBC\", role = \"cph\"),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4474-2498\")),\n  person(\"Devon\", \"Ryan\", role = \"ctb\", email = \"dpryan79@gmail.com\", comment = c(ORCID = \"0000-0002-8549-0971\")),\n  person(\"Ethan\", \"Heinzen\", role = \"ctb\"),\n  person(\"Fernando\", \"Cagua\", role = \"ctb\"),\n  person()\n  )",
+        "Description": "Helper functions to install and maintain the 'LaTeX' distribution\n  named 'TinyTeX' (<https://yihui.org/tinytex/>), a lightweight, cross-platform,\n  portable, and easy-to-maintain version of 'TeX Live'. This package also\n  contains helper functions to compile 'LaTeX' documents, and install missing\n  'LaTeX' packages automatically.",
+        "Imports": "xfun (>= 0.29)",
+        "Suggests": "testit, rstudioapi",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/yihui/tinytex",
+        "BugReports": "https://github.com/yihui/tinytex/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-03-28 21:17:40 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  RStudio, PBC [cph],\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  Devon Ryan [ctb] (<https://orcid.org/0000-0002-8549-0971>),\n  Ethan Heinzen [ctb],\n  Fernando Cagua [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-29 00:10:02 UTC",
+        "Built": "R 4.1.2; ; 2022-03-29 11:34:30 UTC; unix"
+      }
+    },
+    "websocket": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "websocket",
+        "Version": "1.4.1",
+        "Title": "'WebSocket' Client Library",
+        "Description": "Provides a 'WebSocket' client interface for R.\n    'WebSocket' is a protocol for low-overhead real-time communication:\n    <https://en.wikipedia.org/wiki/WebSocket>.",
+        "Authors@R": "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(\"Alan\", \"Dipert\", role = \"aut\"),\n    person(\"Barbara\", \"Borges\", role = \"aut\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(\"Peter\", \"Thorson\", role = c(\"ctb\", \"cph\"), comment = \"WebSocket++ library\"),\n    person(\"René\", \"Nyffenegger\", role = c(\"ctb\", \"cph\"), comment = \"Base 64 library\"),\n    person(\"Micael\", \"Hildenborg\", role = c(\"ctb\", \"cph\"), comment = \"SHA1 library\"),\n    person(family = \"Aladdin Enterprises\", role = \"cph\", comment = \"MD5 library\"),\n    person(\"Bjoern\", \"Hoehrmann\", role = c(\"ctb\", \"cph\"), comment = \"UTF8 Validation library\"))",
+        "License": "GPL-2",
+        "Encoding": "UTF-8",
+        "ByteCompile": "true",
+        "Imports": "R6, later (>= 1.2.0)",
+        "LinkingTo": "cpp11, AsioHeaders, later",
+        "BugReports": "https://github.com/rstudio/websocket/issues",
+        "SystemRequirements": "C++11, GNU make, OpenSSL >= 1.0.2",
+        "RoxygenNote": "7.1.1",
+        "Suggests": "httpuv, testthat, knitr, rmarkdown",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-08-18 19:46:25 UTC; barret",
+        "Author": "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  Alan Dipert [aut],\n  Barbara Borges [aut],\n  RStudio [cph],\n  Peter Thorson [ctb, cph] (WebSocket++ library),\n  René Nyffenegger [ctb, cph] (Base 64 library),\n  Micael Hildenborg [ctb, cph] (SHA1 library),\n  Aladdin Enterprises [cph] (MD5 library),\n  Bjoern Hoehrmann [ctb, cph] (UTF8 Validation library)",
+        "Maintainer": "Winston Chang <winston@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-08-18 20:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-08-20 11:42:58 UTC; unix"
+      }
+    },
+    "xfun": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "xfun",
+        "Type": "Package",
+        "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
+        "Version": "0.30",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
+        "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
+        "Imports": "stats, tools",
+        "Suggests": "testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),\nmime, markdown, knitr, htmltools, remotes, pak, rhub, renv,\ncurl, jsonlite, rmarkdown",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/yihui/xfun",
+        "BugReports": "https://github.com/yihui/xfun/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-03-02 20:44:44 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-03-02 21:50:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-03 12:32:35 UTC; unix"
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "description": {
+        "Package": "yaml",
+        "Type": "Package",
+        "Title": "Methods to Convert R Data to YAML and Back",
+        "Date": "2022-01-24",
+        "Version": "2.3.5",
+        "Suggests": "RUnit",
+        "Author": "Shawn P Garbett [aut], Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb],\n  Michael Quinn [ctb], Zhian N. Kamvar [ctb]",
+        "Maintainer": "Shawn Garbett <shawn.garbett@vumc.org>",
+        "License": "BSD_3_clause + file LICENSE",
+        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<https://pyyaml.org/wiki/LibYAML>) for R.",
+        "URL": "https://github.com/vubiostat/r-yaml/",
+        "BugReports": "https://github.com/vubiostat/r-yaml/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-02-19 02:41:00 UTC; garbetsp",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-02-21 09:20:02 UTC",
+        "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-02-22 12:37:52 UTC; unix"
+      }
+    }
+  },
+  "files": {
+    "assets/.DS_Store": {
+      "checksum": "201c22d698bd69d7d10079bad9d4fc70"
+    },
+    "assets/css/.bootstrap.min 2.css.icloud": {
+      "checksum": "4439e6a0de3713578e8803346897f432"
+    },
+    "assets/css/.Rhistory": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "assets/css/bootstrap.min.css": {
+      "checksum": "fee68c0f2f583161134a1fcb5950501d"
+    },
+    "assets/css/fonts.css": {
+      "checksum": "3d6fc8bb321d0bde7e510b17cec1e2e4"
+    },
+    "assets/css/html_report.css": {
+      "checksum": "893e9841f7d78679bc59a46b0cf10465"
+    },
+    "assets/fonts/RedHatDisplay-Black 2.ttf": {
+      "checksum": "7f2daf15cd73bedefe35931aa3340962"
+    },
+    "assets/fonts/RedHatDisplay-Black.ttf": {
+      "checksum": "7f2daf15cd73bedefe35931aa3340962"
+    },
+    "assets/fonts/RedHatDisplay-BlackItalic 2.ttf": {
+      "checksum": "b6ccda9f3d2894fdbfeba69a334f3781"
+    },
+    "assets/fonts/RedHatDisplay-BlackItalic.ttf": {
+      "checksum": "b6ccda9f3d2894fdbfeba69a334f3781"
+    },
+    "assets/fonts/RedHatDisplay-Bold 2.ttf": {
+      "checksum": "109cc9ca2e75bf1bd22a218786e84576"
+    },
+    "assets/fonts/RedHatDisplay-Bold.ttf": {
+      "checksum": "109cc9ca2e75bf1bd22a218786e84576"
+    },
+    "assets/fonts/RedHatDisplay-BoldItalic 2.ttf": {
+      "checksum": "f84ad6e71f9fc5fcf64f0d757232b88d"
+    },
+    "assets/fonts/RedHatDisplay-BoldItalic.ttf": {
+      "checksum": "f84ad6e71f9fc5fcf64f0d757232b88d"
+    },
+    "assets/fonts/RedHatDisplay-ExtraBold 2.ttf": {
+      "checksum": "82ef5e2685a51535eef0ae80ccda3369"
+    },
+    "assets/fonts/RedHatDisplay-ExtraBold.ttf": {
+      "checksum": "82ef5e2685a51535eef0ae80ccda3369"
+    },
+    "assets/fonts/RedHatDisplay-ExtraBoldItalic 2.ttf": {
+      "checksum": "672bed270a19d4011bb944211dd8f5fe"
+    },
+    "assets/fonts/RedHatDisplay-ExtraBoldItalic.ttf": {
+      "checksum": "672bed270a19d4011bb944211dd8f5fe"
+    },
+    "assets/fonts/RedHatDisplay-Italic 2.ttf": {
+      "checksum": "6e2345cd76ce463a41a5c192d7b994de"
+    },
+    "assets/fonts/RedHatDisplay-Italic-VariableFont_wght 2.ttf": {
+      "checksum": "926e572af29b8dbc55f56bccd42f2d70"
+    },
+    "assets/fonts/RedHatDisplay-Italic-VariableFont_wght.ttf": {
+      "checksum": "926e572af29b8dbc55f56bccd42f2d70"
+    },
+    "assets/fonts/RedHatDisplay-Italic.ttf": {
+      "checksum": "6e2345cd76ce463a41a5c192d7b994de"
+    },
+    "assets/fonts/RedHatDisplay-Light 2.ttf": {
+      "checksum": "13f0b054188ddccddeb6eba96b084c38"
+    },
+    "assets/fonts/RedHatDisplay-Light.ttf": {
+      "checksum": "13f0b054188ddccddeb6eba96b084c38"
+    },
+    "assets/fonts/RedHatDisplay-LightItalic 2.ttf": {
+      "checksum": "c3e491c921980fd1b21c29816ded3189"
+    },
+    "assets/fonts/RedHatDisplay-LightItalic.ttf": {
+      "checksum": "c3e491c921980fd1b21c29816ded3189"
+    },
+    "assets/fonts/RedHatDisplay-Medium 2.ttf": {
+      "checksum": "ec49bb910c205d3b1c7ef97454b47b33"
+    },
+    "assets/fonts/RedHatDisplay-Medium.ttf": {
+      "checksum": "ec49bb910c205d3b1c7ef97454b47b33"
+    },
+    "assets/fonts/RedHatDisplay-MediumItalic 2.ttf": {
+      "checksum": "9cbd3c7059110cc2c88dfb11d0a3a2b0"
+    },
+    "assets/fonts/RedHatDisplay-MediumItalic.ttf": {
+      "checksum": "9cbd3c7059110cc2c88dfb11d0a3a2b0"
+    },
+    "assets/fonts/RedHatDisplay-Regular 2.ttf": {
+      "checksum": "29c5bd30c6bc91b9a9d161db80a0a4de"
+    },
+    "assets/fonts/RedHatDisplay-Regular.ttf": {
+      "checksum": "29c5bd30c6bc91b9a9d161db80a0a4de"
+    },
+    "assets/fonts/RedHatDisplay-SemiBold 2.ttf": {
+      "checksum": "462a13616c7d99d2016c4698faa575dd"
+    },
+    "assets/fonts/RedHatDisplay-SemiBold.ttf": {
+      "checksum": "462a13616c7d99d2016c4698faa575dd"
+    },
+    "assets/fonts/RedHatDisplay-SemiBoldItalic 2.ttf": {
+      "checksum": "571c0e951ba97f819c322bdd3dd44235"
+    },
+    "assets/fonts/RedHatDisplay-SemiBoldItalic.ttf": {
+      "checksum": "571c0e951ba97f819c322bdd3dd44235"
+    },
+    "assets/fonts/RedHatDisplay-VariableFont_wght 2.ttf": {
+      "checksum": "4ffbb3c5a2d131fb6d4c821a84499716"
+    },
+    "assets/fonts/RedHatDisplay-VariableFont_wght.ttf": {
+      "checksum": "4ffbb3c5a2d131fb6d4c821a84499716"
+    },
+    "assets/fonts/Roboto 10.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 11.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 12.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 13.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 14.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 15.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 16.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 17.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 18.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 19.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 2.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 20.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 21.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 22.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 23.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 24.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 25.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 26.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 27.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 28.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 29.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 3.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 30.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 31.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 32.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 33.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 34.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 35.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 36.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 37.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 38.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 39.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 4.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 40.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 41.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 42.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 43.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 44.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 45.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 46.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 5.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 6.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 7.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 8.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto 9.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/Roboto-Bold 2.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 3.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 4.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 5.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 6.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 7.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold 8.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-Bold.ttf": {
+      "checksum": "36b5bab58a18b9c924861a4ccbf1a790"
+    },
+    "assets/fonts/Roboto-BoldItalic 2.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 3.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 4.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 5.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 6.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 7.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic 8.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-BoldItalic.ttf": {
+      "checksum": "076a5afdf7124a39734cc14bedd57180"
+    },
+    "assets/fonts/Roboto-Italic 2.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 3.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 4.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 5.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 6.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 7.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic 8.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Italic.ttf": {
+      "checksum": "93b13a58dedeebe519846555a543523b"
+    },
+    "assets/fonts/Roboto-Light 2.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 3.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 4.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 5.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 6.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 7.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light 8.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-Light.ttf": {
+      "checksum": "d5c46b134c17b2138dcd1bb0efa67049"
+    },
+    "assets/fonts/Roboto-LightItalic 2.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 3.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 4.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 5.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 6.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 7.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic 8.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-LightItalic.ttf": {
+      "checksum": "c57ede1de60f117e50b6d0cb5e55240c"
+    },
+    "assets/fonts/Roboto-Medium 2.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 3.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 4.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 5.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 6.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 7.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium 8.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-Medium.ttf": {
+      "checksum": "9745415b8a2a8b9a2480a12f7e2d3ad3"
+    },
+    "assets/fonts/Roboto-MediumItalic 2.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 3.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 4.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 5.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 6.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 7.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic 8.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-MediumItalic.ttf": {
+      "checksum": "73e11170897b4a5db88d62fdfe8429ee"
+    },
+    "assets/fonts/Roboto-Regular 2.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 3.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 4.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 5.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 6.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 7.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular 8.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Regular.ttf": {
+      "checksum": "5673da52c98bb6cb33ada5aaf649703e"
+    },
+    "assets/fonts/Roboto-Thin 2.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 3.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 4.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 5.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 6.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 7.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin 8.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-Thin.ttf": {
+      "checksum": "14147ca3288fa08b850d029193150722"
+    },
+    "assets/fonts/Roboto-ThinItalic 2.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 3.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 4.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 5.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 6.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 7.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic 8.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto-ThinItalic.ttf": {
+      "checksum": "460b4830c3aa962fd7f131daf26d4f7d"
+    },
+    "assets/fonts/Roboto.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/fonts/RobotoBold 10.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 11.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 12.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 13.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 14.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 15.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 16.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 17.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 18.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 19.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 2.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 20.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 21.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 22.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 23.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 24.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 25.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 26.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 27.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 28.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 29.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 3.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 30.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 31.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 32.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 33.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 34.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 35.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 36.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 37.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 38.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 39.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 4.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 40.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 41.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 42.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 43.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 44.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 45.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 46.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 5.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 6.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 7.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 8.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold 9.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoBold.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/fonts/RobotoLight 10.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 11.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 12.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 13.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 14.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 15.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 16.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 17.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 18.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 19.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 2.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 20.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 21.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 22.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 23.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 24.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 25.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 26.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 27.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 28.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 29.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 3.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 30.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 31.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 32.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 33.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 34.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 35.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 36.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 37.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 38.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 39.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 4.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 40.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 41.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 42.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 43.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 44.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 45.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 46.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 5.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 6.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 7.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 8.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight 9.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoLight.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/fonts/RobotoMedium 10.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 11.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 12.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 13.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 14.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 15.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 16.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 17.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 18.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 19.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 2.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 20.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 21.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 22.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 23.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 24.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 25.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 26.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 27.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 28.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 29.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 3.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 30.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 31.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 32.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 33.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 34.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 35.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 36.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 37.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 38.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 39.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 4.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 40.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 41.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 42.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 43.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 44.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 45.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 46.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 5.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 6.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 7.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 8.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium 9.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/fonts/RobotoMedium.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/header-includes/.DS_Store": {
+      "checksum": "410d7c858e3cd28495ad6e9c4e309c9c"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap 2.css": {
+      "checksum": "4f159defb2641645834d0138a185a0e5"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme 2.css": {
+      "checksum": "659231dde1c53bd14bbcffa1456df892"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme.css": {
+      "checksum": "659231dde1c53bd14bbcffa1456df892"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme.css 2.map": {
+      "checksum": "ca7ee393ea214c018d316eee3acc7f39"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme.css.map": {
+      "checksum": "ca7ee393ea214c018d316eee3acc7f39"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme.min 2.css": {
+      "checksum": "bf3499da1c31113720e9e395691730ba"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap-theme.min.css": {
+      "checksum": "bf3499da1c31113720e9e395691730ba"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap.css": {
+      "checksum": "4f159defb2641645834d0138a185a0e5"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap.css 2.map": {
+      "checksum": "ea1c5719baebc520c82606bf36408d4d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap.css.map": {
+      "checksum": "ea1c5719baebc520c82606bf36408d4d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap.min 2.css": {
+      "checksum": "aa3db69dbd9b05d8dfd439d464d02969"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/bootstrap.min.css": {
+      "checksum": "aa3db69dbd9b05d8dfd439d464d02969"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/cerulean.min 2.css": {
+      "checksum": "1d2c43758806d7f185143edbdb17e7e0"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/cerulean.min.css": {
+      "checksum": "1d2c43758806d7f185143edbdb17e7e0"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/cosmo.min 2.css": {
+      "checksum": "0ec01aa9d795cf2def140724344d668e"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/cosmo.min.css": {
+      "checksum": "0ec01aa9d795cf2def140724344d668e"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/flatly.min 2.css": {
+      "checksum": "04d98cd29a49176152a183ba608020f2"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/flatly.min.css": {
+      "checksum": "04d98cd29a49176152a183ba608020f2"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Lato 2.ttf": {
+      "checksum": "c45152a20fcaa8ae5d5611e947399dcc"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Lato.ttf": {
+      "checksum": "c45152a20fcaa8ae5d5611e947399dcc"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/LatoBold 2.ttf": {
+      "checksum": "a30435e0c5edc583b1f3552e48068e69"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/LatoBold.ttf": {
+      "checksum": "a30435e0c5edc583b1f3552e48068e69"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/LatoItalic 2.ttf": {
+      "checksum": "4ffd11cfd26127dbd8c716fddeffa1e0"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/LatoItalic.ttf": {
+      "checksum": "4ffd11cfd26127dbd8c716fddeffa1e0"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/NewsCycle 2.ttf": {
+      "checksum": "9e3bb4acbffda54ebe710e081be3626d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/NewsCycle.ttf": {
+      "checksum": "9e3bb4acbffda54ebe710e081be3626d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/NewsCycleBold 2.ttf": {
+      "checksum": "d754ba196153cfeef847cf2a68b68a0a"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/NewsCycleBold.ttf": {
+      "checksum": "d754ba196153cfeef847cf2a68b68a0a"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSans 2.ttf": {
+      "checksum": "56edff6cd9c40bf507851c7af6d724ba"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSans.ttf": {
+      "checksum": "56edff6cd9c40bf507851c7af6d724ba"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansBold 2.ttf": {
+      "checksum": "68b46e7ec5ff26f8c5948686ef0795e9"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansBold.ttf": {
+      "checksum": "68b46e7ec5ff26f8c5948686ef0795e9"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansBoldItalic 2.ttf": {
+      "checksum": "5e1cdd683bb56d6e69d5338e1c33dd79"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansBoldItalic.ttf": {
+      "checksum": "5e1cdd683bb56d6e69d5338e1c33dd79"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansItalic 2.ttf": {
+      "checksum": "9e5e2bc48802a75eb9f0d954f3d4e45b"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansItalic.ttf": {
+      "checksum": "9e5e2bc48802a75eb9f0d954f3d4e45b"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansLight 2.ttf": {
+      "checksum": "a957943fff1355620393d35cb3d6c7d1"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansLight.ttf": {
+      "checksum": "a957943fff1355620393d35cb3d6c7d1"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansLightItalic 2.ttf": {
+      "checksum": "147ab98830dc2ba625dfcab85ca069dd"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/OpenSansLightItalic.ttf": {
+      "checksum": "147ab98830dc2ba625dfcab85ca069dd"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Raleway 2.ttf": {
+      "checksum": "f1f45bc019ec18a7705714b3478e6b1d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Raleway.ttf": {
+      "checksum": "f1f45bc019ec18a7705714b3478e6b1d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RalewayBold 2.ttf": {
+      "checksum": "9adbc922343f1b4b4b62b8bf85225e2c"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RalewayBold.ttf": {
+      "checksum": "9adbc922343f1b4b4b62b8bf85225e2c"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Roboto 2.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Roboto.ttf": {
+      "checksum": "38861cba61c66739c1452c3a71e39852"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoBold 2.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoBold.ttf": {
+      "checksum": "ad97d029a11d8b39692037e753d23d1f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoLight 2.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoLight.ttf": {
+      "checksum": "634f53eb79efa455a9e9d85d608b3447"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoMedium 2.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/RobotoMedium.ttf": {
+      "checksum": "88f29ea5a372d06f521395134f62ab91"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansPro 2.ttf": {
+      "checksum": "f2d83436dcf3f53375518292e917643c"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansPro.ttf": {
+      "checksum": "f2d83436dcf3f53375518292e917643c"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProBold 2.ttf": {
+      "checksum": "206f41ff7cdb7df5dbfeda33c847b793"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProBold.ttf": {
+      "checksum": "206f41ff7cdb7df5dbfeda33c847b793"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProItalic 2.ttf": {
+      "checksum": "b5a02317c3d2de0275cfd1efef086f6f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProItalic.ttf": {
+      "checksum": "b5a02317c3d2de0275cfd1efef086f6f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProLight 2.ttf": {
+      "checksum": "6a9d4d28a117a8364376de2f17ee5ff9"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/SourceSansProLight.ttf": {
+      "checksum": "6a9d4d28a117a8364376de2f17ee5ff9"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Ubuntu 2.ttf": {
+      "checksum": "725b5e2f8b7e0bfac66edad5c2291b86"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/fonts/Ubuntu.ttf": {
+      "checksum": "725b5e2f8b7e0bfac66edad5c2291b86"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/journal.min 2.css": {
+      "checksum": "301b69d57caada69fa1091c07a3da5ed"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/journal.min.css": {
+      "checksum": "301b69d57caada69fa1091c07a3da5ed"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/lumen.min 2.css": {
+      "checksum": "cc8777d594a028bcd9d2b5181f445a2f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/lumen.min.css": {
+      "checksum": "cc8777d594a028bcd9d2b5181f445a2f"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/paper.min 2.css": {
+      "checksum": "82ed16ec394450ee8165044db775d810"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/paper.min.css": {
+      "checksum": "82ed16ec394450ee8165044db775d810"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/readable.min 2.css": {
+      "checksum": "5a3dd680e4bc9fecfbe73b6fb6053df2"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/readable.min.css": {
+      "checksum": "5a3dd680e4bc9fecfbe73b6fb6053df2"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/sandstone.min 2.css": {
+      "checksum": "bd322f2bb56fd796f9b25a4d8143e32a"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/sandstone.min.css": {
+      "checksum": "bd322f2bb56fd796f9b25a4d8143e32a"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/simplex.min 2.css": {
+      "checksum": "4e852706d1a055001b1b261bb278f1c3"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/simplex.min.css": {
+      "checksum": "4e852706d1a055001b1b261bb278f1c3"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/spacelab.min 2.css": {
+      "checksum": "fdc6659ea67a4f2eb3c2ea705fa7638e"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/spacelab.min.css": {
+      "checksum": "fdc6659ea67a4f2eb3c2ea705fa7638e"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/united.min 2.css": {
+      "checksum": "5481733846a5b753f5968693089b4130"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/united.min.css": {
+      "checksum": "5481733846a5b753f5968693089b4130"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/yeti.min 2.css": {
+      "checksum": "1f4bfa38bc583e334ba1a749fd6e0d23"
+    },
+    "assets/header-includes/bootstrap-3.3.5/css/yeti.min.css": {
+      "checksum": "1f4bfa38bc583e334ba1a749fd6e0d23"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular 2.eot": {
+      "checksum": "f4769f9bdb7466be65088239c12046d1"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular 2.svg": {
+      "checksum": "89889688147bd7575d6327160d64e760"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular 2.ttf": {
+      "checksum": "e18bbf611f2a2e43afc071aa2f4e1512"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular 2.woff": {
+      "checksum": "fa2772327f55d8198301fdb8bcfc8158"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular 2.woff2": {
+      "checksum": "448c34a56d699c29117adc64c43affeb"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot": {
+      "checksum": "f4769f9bdb7466be65088239c12046d1"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.svg": {
+      "checksum": "89889688147bd7575d6327160d64e760"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf": {
+      "checksum": "e18bbf611f2a2e43afc071aa2f4e1512"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff": {
+      "checksum": "fa2772327f55d8198301fdb8bcfc8158"
+    },
+    "assets/header-includes/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2": {
+      "checksum": "448c34a56d699c29117adc64c43affeb"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/bootstrap 2.js": {
+      "checksum": "8015042d0b4ac125867af5b096b175ce"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/bootstrap.js": {
+      "checksum": "8015042d0b4ac125867af5b096b175ce"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/bootstrap.min 2.js": {
+      "checksum": "4becdc9104623e891fbb9d38bba01be4"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/bootstrap.min.js": {
+      "checksum": "4becdc9104623e891fbb9d38bba01be4"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/npm 2.js": {
+      "checksum": "ccb7f3909e30b1eb8f65a24393c6e12b"
+    },
+    "assets/header-includes/bootstrap-3.3.5/js/npm.js": {
+      "checksum": "ccb7f3909e30b1eb8f65a24393c6e12b"
+    },
+    "assets/header-includes/bootstrap-3.3.5/shim/html5shiv.min 2.js": {
+      "checksum": "ae8fceae0e07d55b5cfaa9af6bc43a6d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/shim/html5shiv.min.js": {
+      "checksum": "ae8fceae0e07d55b5cfaa9af6bc43a6d"
+    },
+    "assets/header-includes/bootstrap-3.3.5/shim/respond.min 2.js": {
+      "checksum": "506fe393e9f296d14b63733c0aff6205"
+    },
+    "assets/header-includes/bootstrap-3.3.5/shim/respond.min.js": {
+      "checksum": "506fe393e9f296d14b63733c0aff6205"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap 2.css": {
+      "checksum": "d26ecc887c12f855a908679dae6704e3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid 2.css": {
+      "checksum": "ff2874cf2b810904a86e75fb662dddf9"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.css": {
+      "checksum": "ff2874cf2b810904a86e75fb662dddf9"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.css 2.map": {
+      "checksum": "cd1464ebf1130f2d2514b78ab1186701"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.css.map": {
+      "checksum": "cd1464ebf1130f2d2514b78ab1186701"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.min 2.css": {
+      "checksum": "71671e5000bc7347d6080c92b0bfeeb4"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.min.css": {
+      "checksum": "71671e5000bc7347d6080c92b0bfeeb4"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.min.css 2.map": {
+      "checksum": "2f4414bde7196b76352eb305027127e6"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-grid.min.css.map": {
+      "checksum": "2f4414bde7196b76352eb305027127e6"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot 2.css": {
+      "checksum": "2009a327a433d376395fa327c9eb3d99"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.css": {
+      "checksum": "2009a327a433d376395fa327c9eb3d99"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.css 2.map": {
+      "checksum": "7aab631482ae807566d4d933b14166ff"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.css.map": {
+      "checksum": "7aab631482ae807566d4d933b14166ff"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.min 2.css": {
+      "checksum": "5469e5527b70efcd51fb0deb1e213c63"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.min.css": {
+      "checksum": "5469e5527b70efcd51fb0deb1e213c63"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.min.css 2.map": {
+      "checksum": "be2a1bb81bd5d92f76ac3c69f1b11d44"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap-reboot.min.css.map": {
+      "checksum": "be2a1bb81bd5d92f76ac3c69f1b11d44"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.css": {
+      "checksum": "d26ecc887c12f855a908679dae6704e3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.css 2.map": {
+      "checksum": "0ab7c5a3c60c431b89b5a1e3fb26c525"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.css.map": {
+      "checksum": "0ab7c5a3c60c431b89b5a1e3fb26c525"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.min 2.css": {
+      "checksum": "04aca1f4cd3ec3c05a75a879f3be75a3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.min.css": {
+      "checksum": "04aca1f4cd3ec3c05a75a879f3be75a3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.min.css 2.map": {
+      "checksum": "13864e70f3d7eb9e606ee6bf6ce3451a"
+    },
+    "assets/header-includes/bootstrap-4.1.3/css/bootstrap.min.css.map": {
+      "checksum": "13864e70f3d7eb9e606ee6bf6ce3451a"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap 2.js": {
+      "checksum": "4bc939cd6b79a562e8d14bc7a4674520"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle 2.js": {
+      "checksum": "50a98c751c19ae5ea4fc42b2ba2da89b"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.js": {
+      "checksum": "50a98c751c19ae5ea4fc42b2ba2da89b"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.js 2.map": {
+      "checksum": "6099416e857ce20c2dc67e5c70e31c10"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.js.map": {
+      "checksum": "6099416e857ce20c2dc67e5c70e31c10"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.min 2.js": {
+      "checksum": "ef58fee438cd2da2c3b33ff6f1cfeebf"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.min.js": {
+      "checksum": "ef58fee438cd2da2c3b33ff6f1cfeebf"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.min.js 2.map": {
+      "checksum": "45e94ecc39062646ee2f86d8b550e20f"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.bundle.min.js.map": {
+      "checksum": "45e94ecc39062646ee2f86d8b550e20f"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.js": {
+      "checksum": "4bc939cd6b79a562e8d14bc7a4674520"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.js 2.map": {
+      "checksum": "c38911715a82d955e1f61dabb031a18d"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.js.map": {
+      "checksum": "c38911715a82d955e1f61dabb031a18d"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.min 2.js": {
+      "checksum": "67176c242e1bdc20603c878dee836df3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.min.js": {
+      "checksum": "67176c242e1bdc20603c878dee836df3"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.min.js 2.map": {
+      "checksum": "2fc279b4cd4ace33a72aa2ae05a83704"
+    },
+    "assets/header-includes/bootstrap-4.1.3/js/bootstrap.min.js.map": {
+      "checksum": "2fc279b4cd4ace33a72aa2ae05a83704"
+    },
+    "assets/header-includes/crosstalk-1.0.0/css/crosstalk 2.css": {
+      "checksum": "a03b8a3a33eb8a69d37a03746ba92b4f"
+    },
+    "assets/header-includes/crosstalk-1.0.0/css/crosstalk.css": {
+      "checksum": "a03b8a3a33eb8a69d37a03746ba92b4f"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk 2.js": {
+      "checksum": "39a2f512456b98c824f12c857a118ea6"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.js": {
+      "checksum": "39a2f512456b98c824f12c857a118ea6"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.js 2.map": {
+      "checksum": "a1de3ba877618aa3d1e03d8245cef18f"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.js.map": {
+      "checksum": "a1de3ba877618aa3d1e03d8245cef18f"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.min 2.js": {
+      "checksum": "116f1b299d39312303a2be2b5a7ac5d8"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.min.js": {
+      "checksum": "116f1b299d39312303a2be2b5a7ac5d8"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.min.js 2.map": {
+      "checksum": "b5d03fc86d1c2dff0f6fca2c6f16c3e9"
+    },
+    "assets/header-includes/crosstalk-1.0.0/js/crosstalk.min.js.map": {
+      "checksum": "b5d03fc86d1c2dff0f6fca2c6f16c3e9"
+    },
+    "assets/header-includes/htmlwidgets-1.2/htmlwidgets 2.js": {
+      "checksum": "e4c32f2be79353a70419462e28373dda"
+    },
+    "assets/header-includes/htmlwidgets-1.2/htmlwidgets.js": {
+      "checksum": "e4c32f2be79353a70419462e28373dda"
+    },
+    "assets/header-includes/jquery-1.11.3/jquery.min 2.js": {
+      "checksum": "895323ed2f7258af4fae2c738c8aea49"
+    },
+    "assets/header-includes/jquery-1.11.3/jquery.min.js": {
+      "checksum": "895323ed2f7258af4fae2c738c8aea49"
+    },
+    "assets/header-includes/jquery-3.3.1/jquery-3.3.1 2.js": {
+      "checksum": "6a07da9fae934baf3f749e876bbfdd96"
+    },
+    "assets/header-includes/jquery-3.3.1/jquery-3.3.1.js": {
+      "checksum": "6a07da9fae934baf3f749e876bbfdd96"
+    },
+    "assets/header-includes/jquery-3.3.1/jquery-3.3.1.min 2.js": {
+      "checksum": "a09e13ee94d51c524b7e2a728c7d4039"
+    },
+    "assets/header-includes/jquery-3.3.1/jquery-3.3.1.min.js": {
+      "checksum": "a09e13ee94d51c524b7e2a728c7d4039"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/AUTHORS 2.txt": {
+      "checksum": "403511fc6c430ea6179ebcb4a9983eec"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/AUTHORS.txt": {
+      "checksum": "403511fc6c430ea6179ebcb4a9983eec"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/external/jquery/jquery 2.js": {
+      "checksum": "fb2d334dabf4902825df4fe6c2298b4b"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/external/jquery/jquery.js": {
+      "checksum": "fb2d334dabf4902825df4fe6c2298b4b"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_444444_256x240 2.png": {
+      "checksum": "d10bc07005bb2d604f4905183690ac04"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png": {
+      "checksum": "d10bc07005bb2d604f4905183690ac04"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_555555_256x240 2.png": {
+      "checksum": "00dd0ec0a16a1085e714c7906ff8fb06"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png": {
+      "checksum": "00dd0ec0a16a1085e714c7906ff8fb06"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_777620_256x240 2.png": {
+      "checksum": "4e7e3e142f3939883cd0a7e00cabdaef"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png": {
+      "checksum": "4e7e3e142f3939883cd0a7e00cabdaef"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_777777_256x240 2.png": {
+      "checksum": "40bf25799e4fec8079c7775083de09df"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png": {
+      "checksum": "40bf25799e4fec8079c7775083de09df"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240 2.png": {
+      "checksum": "093a819138276b446611d1d2a45b98a2"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png": {
+      "checksum": "093a819138276b446611d1d2a45b98a2"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240 2.png": {
+      "checksum": "ea4ebe072be75fbbea002631916836de"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png": {
+      "checksum": "ea4ebe072be75fbbea002631916836de"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/index 2.html": {
+      "checksum": "11f31c348968868d4ada89d6162c640e"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/index.html": {
+      "checksum": "11f31c348968868d4ada89d6162c640e"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui 2.css": {
+      "checksum": "6fd5a6e8197041971d02cf62d06f4b14"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui 2.js": {
+      "checksum": "ab5284de5e3d221e53647fd348e5644b"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.css": {
+      "checksum": "6fd5a6e8197041971d02cf62d06f4b14"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.js": {
+      "checksum": "ab5284de5e3d221e53647fd348e5644b"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.min 2.css": {
+      "checksum": "0b5729a931d113be34b6fac13bcf5b29"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.min 2.js": {
+      "checksum": "c15b1008dec3c8967ea657a7bb4baaec"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.min.css": {
+      "checksum": "0b5729a931d113be34b6fac13bcf5b29"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.min.js": {
+      "checksum": "c15b1008dec3c8967ea657a7bb4baaec"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.structure 2.css": {
+      "checksum": "b75d9919ded1b610c51a4727dd4b9720"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.structure.css": {
+      "checksum": "b75d9919ded1b610c51a4727dd4b9720"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.structure.min 2.css": {
+      "checksum": "5581d20aa5062ed5c0b6048f68e76055"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.structure.min.css": {
+      "checksum": "5581d20aa5062ed5c0b6048f68e76055"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.theme 2.css": {
+      "checksum": "c4679db4adb3f9b8089213c6c396e2ee"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.theme.css": {
+      "checksum": "c4679db4adb3f9b8089213c6c396e2ee"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.theme.min 2.css": {
+      "checksum": "c12cac44216cf877fd0c6903f3794407"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/jquery-ui.theme.min.css": {
+      "checksum": "c12cac44216cf877fd0c6903f3794407"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/LICENSE 2.txt": {
+      "checksum": "e0c0d3d883e83f19efa64feb54d5f63d"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/LICENSE.txt": {
+      "checksum": "e0c0d3d883e83f19efa64feb54d5f63d"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/package 2.json": {
+      "checksum": "ff7dc0c7a69aa51cea5e37fa4dad9b38"
+    },
+    "assets/header-includes/jquery-ui-1.12.1/package.json": {
+      "checksum": "ff7dc0c7a69aa51cea5e37fa4dad9b38"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_444444_256x240 2.png": {
+      "checksum": "d80747d34afb87753b51d45a36f8bd17"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_444444_256x240.png": {
+      "checksum": "d80747d34afb87753b51d45a36f8bd17"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_555555_256x240 2.png": {
+      "checksum": "1e70a2d46244ee4070fd47152bd71db1"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_555555_256x240.png": {
+      "checksum": "1e70a2d46244ee4070fd47152bd71db1"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_777620_256x240 2.png": {
+      "checksum": "eb4a975c630f379279fe78c604d0b36c"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_777620_256x240.png": {
+      "checksum": "eb4a975c630f379279fe78c604d0b36c"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_777777_256x240 2.png": {
+      "checksum": "68855e6e3d288ab126a1f1dd82b64e26"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_777777_256x240.png": {
+      "checksum": "68855e6e3d288ab126a1f1dd82b64e26"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_cc0000_256x240 2.png": {
+      "checksum": "7c81a6253b77a9fdaf51bb1038f8c840"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_cc0000_256x240.png": {
+      "checksum": "7c81a6253b77a9fdaf51bb1038f8c840"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_ffffff_256x240 2.png": {
+      "checksum": "41612b0f4a034424f8321c9f824a94da"
+    },
+    "assets/header-includes/jqueryui-1.11.4/images/ui-icons_ffffff_256x240.png": {
+      "checksum": "41612b0f4a034424f8321c9f824a94da"
+    },
+    "assets/header-includes/jqueryui-1.11.4/index 2.html": {
+      "checksum": "35c5b4c500d766e04a9b3a7b05701b2e"
+    },
+    "assets/header-includes/jqueryui-1.11.4/index.html": {
+      "checksum": "35c5b4c500d766e04a9b3a7b05701b2e"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui 2.css": {
+      "checksum": "a14ebdbb782f62a97b0bfc1d0749e138"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui 2.js": {
+      "checksum": "4156bf51d2d5144087fd8766e433a3d8"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.css": {
+      "checksum": "a14ebdbb782f62a97b0bfc1d0749e138"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.js": {
+      "checksum": "4156bf51d2d5144087fd8766e433a3d8"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.min 2.css": {
+      "checksum": "a0fd52784e4da798e7d6a4b52e991db1"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.min 2.js": {
+      "checksum": "991c88f48d11ebce6828a6b2be17dad2"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.min.css": {
+      "checksum": "a0fd52784e4da798e7d6a4b52e991db1"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.min.js": {
+      "checksum": "991c88f48d11ebce6828a6b2be17dad2"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.structure 2.css": {
+      "checksum": "c762a2f34b42e912713542ebdc16ba4b"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.structure.css": {
+      "checksum": "c762a2f34b42e912713542ebdc16ba4b"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.structure.min 2.css": {
+      "checksum": "c68383f6186ce6de68fdb44abdfdebce"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.structure.min.css": {
+      "checksum": "c68383f6186ce6de68fdb44abdfdebce"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.theme 2.css": {
+      "checksum": "f05390e630b6c940d8d86c65596f62f5"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.theme.css": {
+      "checksum": "f05390e630b6c940d8d86c65596f62f5"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.theme.min 2.css": {
+      "checksum": "d3ea6df653da3d8ac16cc34452214d52"
+    },
+    "assets/header-includes/jqueryui-1.11.4/jquery-ui.theme.min.css": {
+      "checksum": "d3ea6df653da3d8ac16cc34452214d52"
+    },
+    "assets/header-includes/jqueryui-1.11.4/README": {
+      "checksum": "209ed8e314e0e913f7d2eb5c9e5ec785"
+    },
+    "assets/header-includes/jqueryui-1.11.4/README 2": {
+      "checksum": "209ed8e314e0e913f7d2eb5c9e5ec785"
+    },
+    "assets/header-includes/navigation-1.1/codefolding 2.js": {
+      "checksum": "795f65a1c60e18803e968d419877c6c8"
+    },
+    "assets/header-includes/navigation-1.1/codefolding.js": {
+      "checksum": "795f65a1c60e18803e968d419877c6c8"
+    },
+    "assets/header-includes/navigation-1.1/sourceembed 2.js": {
+      "checksum": "a1a9d728fbf33ed607aa465e6e8a42ba"
+    },
+    "assets/header-includes/navigation-1.1/sourceembed.js": {
+      "checksum": "a1a9d728fbf33ed607aa465e6e8a42ba"
+    },
+    "assets/header-includes/navigation-1.1/tabsets 2.js": {
+      "checksum": "3838523138b4d71acb5ea1c5c45ecc00"
+    },
+    "assets/header-includes/navigation-1.1/tabsets.js": {
+      "checksum": "3838523138b4d71acb5ea1c5c45ecc00"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/colourpicker.min 2.css": {
+      "checksum": "77da99b7eccf0e79093be060e5617887"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/colourpicker.min 2.js": {
+      "checksum": "fbb9912baf6643516438ce4dd17a0417"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/colourpicker.min.css": {
+      "checksum": "77da99b7eccf0e79093be060e5617887"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/colourpicker.min.js": {
+      "checksum": "fbb9912baf6643516438ce4dd17a0417"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/LICENSE": {
+      "checksum": "ebf70b59f17ab360a1a9a2099ef4c806"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/colourpicker/LICENSE 2": {
+      "checksum": "ebf70b59f17ab360a1a9a2099ef4c806"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/mathjax/cdn 2.js": {
+      "checksum": "76631e5aa29e5462679fc79c0c5fd90a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/mathjax/cdn.js": {
+      "checksum": "76631e5aa29e5462679fc79c0c5fd90a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/LICENSE": {
+      "checksum": "c0070389c25cb3fce62ee5054220f7cd"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/LICENSE 2": {
+      "checksum": "c0070389c25cb3fce62ee5054220f7cd"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/af 2.js": {
+      "checksum": "873c92735d5fa246c8392ac8092c3d56"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/af.js": {
+      "checksum": "873c92735d5fa246c8392ac8092c3d56"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/am 2.js": {
+      "checksum": "3bd6f9669a1fec436b8666713079e9d3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/am.js": {
+      "checksum": "3bd6f9669a1fec436b8666713079e9d3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar 2.js": {
+      "checksum": "01572d6b099fcd6497bdbded04497296"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar-dz 2.js": {
+      "checksum": "86f18477ed96344b6bdf9587f40182ec"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar-dz.js": {
+      "checksum": "86f18477ed96344b6bdf9587f40182ec"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar-eg 2.js": {
+      "checksum": "f3ab0c27fa276617b16c48f9463e60b3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar-eg.js": {
+      "checksum": "f3ab0c27fa276617b16c48f9463e60b3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ar.js": {
+      "checksum": "01572d6b099fcd6497bdbded04497296"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/az 2.js": {
+      "checksum": "4ba2c2a306a32f89cb38356a8919be23"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/az.js": {
+      "checksum": "4ba2c2a306a32f89cb38356a8919be23"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/bg 2.js": {
+      "checksum": "d8dff60e87afdf91bc25d60d16c1f504"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/bg.js": {
+      "checksum": "d8dff60e87afdf91bc25d60d16c1f504"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/bs 2.js": {
+      "checksum": "5c9573a579199c797b352110b01bf909"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/bs.js": {
+      "checksum": "5c9573a579199c797b352110b01bf909"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ca 2.js": {
+      "checksum": "f6113ba533fae788d130ca5dbf257f33"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ca.js": {
+      "checksum": "f6113ba533fae788d130ca5dbf257f33"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/cs 2.js": {
+      "checksum": "b88ffaa6824fd48e92f0560f9f1da701"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/cs.js": {
+      "checksum": "b88ffaa6824fd48e92f0560f9f1da701"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/da 2.js": {
+      "checksum": "dcf5274e583872d771c1348dfce7331e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/da.js": {
+      "checksum": "dcf5274e583872d771c1348dfce7331e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/de 2.js": {
+      "checksum": "d35d9c59f7263eff8595696b77cf50d0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/de-ch 2.js": {
+      "checksum": "446f39203e0d6321df26bb3c2da95019"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/de-ch.js": {
+      "checksum": "446f39203e0d6321df26bb3c2da95019"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/de.js": {
+      "checksum": "d35d9c59f7263eff8595696b77cf50d0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/el 2.js": {
+      "checksum": "04856711a764c49c609ea7565c355b74"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/el.js": {
+      "checksum": "04856711a764c49c609ea7565c355b74"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/eo 2.js": {
+      "checksum": "f6501d3ddd79e87f99ea61537a720be7"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/eo.js": {
+      "checksum": "f6501d3ddd79e87f99ea61537a720be7"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es 2.js": {
+      "checksum": "e7b270090ab8b9ca6226039be1983df3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es-ar 2.js": {
+      "checksum": "d3439a887271962b394a61d0781c0c64"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es-ar.js": {
+      "checksum": "d3439a887271962b394a61d0781c0c64"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es-pe 2.js": {
+      "checksum": "5452a37f1ee285033f50f87a488dfe96"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es-pe.js": {
+      "checksum": "5452a37f1ee285033f50f87a488dfe96"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/es.js": {
+      "checksum": "e7b270090ab8b9ca6226039be1983df3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/et 2.js": {
+      "checksum": "90d33f2a27c6233ae8a85e365aa239d6"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/et.js": {
+      "checksum": "90d33f2a27c6233ae8a85e365aa239d6"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/eu 2.js": {
+      "checksum": "849db95d766a04806edca10544c2320b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/eu.js": {
+      "checksum": "849db95d766a04806edca10544c2320b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fa 2.js": {
+      "checksum": "b7c59aba5dcf5314ea424e7cda9a7e33"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fa.js": {
+      "checksum": "b7c59aba5dcf5314ea424e7cda9a7e33"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fi 2.js": {
+      "checksum": "bdb0d25c0d92647e7b406575f0759ee0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fi.js": {
+      "checksum": "bdb0d25c0d92647e7b406575f0759ee0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fo 2.js": {
+      "checksum": "5080255a9b65ff063331f759f477cd93"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fo.js": {
+      "checksum": "5080255a9b65ff063331f759f477cd93"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fr 2.js": {
+      "checksum": "3d28063884e2e4b4aca23230895d8619"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fr-ch 2.js": {
+      "checksum": "e43d791af2e948391da9defd43b4c153"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fr-ch.js": {
+      "checksum": "e43d791af2e948391da9defd43b4c153"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/fr.js": {
+      "checksum": "3d28063884e2e4b4aca23230895d8619"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/gl 2.js": {
+      "checksum": "7b57199bb41a41482fe8d2b61e499bba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/gl.js": {
+      "checksum": "7b57199bb41a41482fe8d2b61e499bba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/gu 2.js": {
+      "checksum": "7d29ec05053e2b1f09fcf9f4a0304a5a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/gu.js": {
+      "checksum": "7d29ec05053e2b1f09fcf9f4a0304a5a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/he 2.js": {
+      "checksum": "0d33acaa530fd7b2eace9141644a716e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/he.js": {
+      "checksum": "0d33acaa530fd7b2eace9141644a716e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hi-in 2.js": {
+      "checksum": "dbda78d9748d057f08410fc4c34f8149"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hi-in.js": {
+      "checksum": "dbda78d9748d057f08410fc4c34f8149"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hr 2.js": {
+      "checksum": "e75f56ca96db04a3831d38c98de396fd"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hr.js": {
+      "checksum": "e75f56ca96db04a3831d38c98de396fd"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hu 2.js": {
+      "checksum": "ec39a12b8d600839c0c4151a83fa052b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hu.js": {
+      "checksum": "ec39a12b8d600839c0c4151a83fa052b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hy 2.js": {
+      "checksum": "196969ad796e84df8bbe249b134b02d1"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/hy.js": {
+      "checksum": "196969ad796e84df8bbe249b134b02d1"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/id 2.js": {
+      "checksum": "66674082a8efaa227adde59356fdbaf0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/id.js": {
+      "checksum": "66674082a8efaa227adde59356fdbaf0"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/is 2.js": {
+      "checksum": "cddb80e0a11d8aa2f37fd2b9de91af59"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/is.js": {
+      "checksum": "cddb80e0a11d8aa2f37fd2b9de91af59"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/it 2.js": {
+      "checksum": "8779e284f8f0478ac40b72ed3ba085a2"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/it.js": {
+      "checksum": "8779e284f8f0478ac40b72ed3ba085a2"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ja 2.js": {
+      "checksum": "8bd89afe21066c373b75e33232f55f6b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ja.js": {
+      "checksum": "8bd89afe21066c373b75e33232f55f6b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ka 2.js": {
+      "checksum": "5df2421545a574bea4c04436fd7d2204"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ka.js": {
+      "checksum": "5df2421545a574bea4c04436fd7d2204"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/km 2.js": {
+      "checksum": "dd6282860e700c94e9b5128bc273a078"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/km.js": {
+      "checksum": "dd6282860e700c94e9b5128bc273a078"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ko 2.js": {
+      "checksum": "1274144e106de16ae6f5d107a8b6431f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ko.js": {
+      "checksum": "1274144e106de16ae6f5d107a8b6431f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/lt 2.js": {
+      "checksum": "29754f66d3dc597d5c4c7a1e754450ff"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/lt.js": {
+      "checksum": "29754f66d3dc597d5c4c7a1e754450ff"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/lv 2.js": {
+      "checksum": "b2f7ef4ab24f9c9ae31f30343d758437"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/lv.js": {
+      "checksum": "b2f7ef4ab24f9c9ae31f30343d758437"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/me 2.js": {
+      "checksum": "baa10c51b3419b7abe0865e4364b09ae"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/me-me 2.js": {
+      "checksum": "7db16c1da2c5f38bcd52c7b11f8f8b16"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/me-me.js": {
+      "checksum": "7db16c1da2c5f38bcd52c7b11f8f8b16"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/me.js": {
+      "checksum": "baa10c51b3419b7abe0865e4364b09ae"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/mk 2.js": {
+      "checksum": "822fca26129c30447faecef265558305"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/mk.js": {
+      "checksum": "822fca26129c30447faecef265558305"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ml 2.js": {
+      "checksum": "0ec25f7d2a62ccce2bbf3543c095990f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ml.js": {
+      "checksum": "0ec25f7d2a62ccce2bbf3543c095990f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ms 2.js": {
+      "checksum": "742b5533a3715975edbed6ea2e1aafb7"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ms.js": {
+      "checksum": "742b5533a3715975edbed6ea2e1aafb7"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/mt 2.js": {
+      "checksum": "2c33b7321b1cea31a00910f6bade37ff"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/mt.js": {
+      "checksum": "2c33b7321b1cea31a00910f6bade37ff"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/nl 2.js": {
+      "checksum": "caa93c321682ea29df5d62f65064088f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/nl-be 2.js": {
+      "checksum": "473ed7648cf024ff6d305c0183671f62"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/nl-be.js": {
+      "checksum": "473ed7648cf024ff6d305c0183671f62"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/nl.js": {
+      "checksum": "caa93c321682ea29df5d62f65064088f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/no 2.js": {
+      "checksum": "a5ce9518af3e6cd9d26b2069c4d43409"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/no.js": {
+      "checksum": "a5ce9518af3e6cd9d26b2069c4d43409"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pa 2.js": {
+      "checksum": "77484b86f839baa9b158ad4275f223ba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pa.js": {
+      "checksum": "77484b86f839baa9b158ad4275f223ba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pl 2.js": {
+      "checksum": "7485828258432f8dfdd00724abf99926"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pl.js": {
+      "checksum": "7485828258432f8dfdd00724abf99926"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pt-br 2.js": {
+      "checksum": "90f1e9daf107e5020510a27a61f2ebfb"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/pt-br.js": {
+      "checksum": "90f1e9daf107e5020510a27a61f2ebfb"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/rm 2.js": {
+      "checksum": "d5ea0bce12813d3d0e16e434bb97d4f3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/rm.js": {
+      "checksum": "d5ea0bce12813d3d0e16e434bb97d4f3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ro 2.js": {
+      "checksum": "6cd0cc12536e740384264e72a902baba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ro.js": {
+      "checksum": "6cd0cc12536e740384264e72a902baba"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ru 2.js": {
+      "checksum": "9f2018fce40d8223456827f1c3045f27"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ru.js": {
+      "checksum": "9f2018fce40d8223456827f1c3045f27"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sk 2.js": {
+      "checksum": "8ee70f8ebbc822de656f8abec1c2056a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sk.js": {
+      "checksum": "8ee70f8ebbc822de656f8abec1c2056a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sl 2.js": {
+      "checksum": "77d28bbb34fef5f7f6f6e2791823c72e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sl.js": {
+      "checksum": "77d28bbb34fef5f7f6f6e2791823c72e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sq 2.js": {
+      "checksum": "147949a01b93ad76189deec80c5d592b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sq.js": {
+      "checksum": "147949a01b93ad76189deec80c5d592b"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sr 2.js": {
+      "checksum": "f8512d833a5dc03e3e0dcfcf809ba494"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sr-sr 2.js": {
+      "checksum": "6cb56afc79735317abaf78419c35ab0e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sr-sr.js": {
+      "checksum": "6cb56afc79735317abaf78419c35ab0e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sr.js": {
+      "checksum": "f8512d833a5dc03e3e0dcfcf809ba494"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sv 2.js": {
+      "checksum": "ea7f7c1df45bbd3c20669339c79a9c99"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sv.js": {
+      "checksum": "ea7f7c1df45bbd3c20669339c79a9c99"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sw 2.js": {
+      "checksum": "06a2d9791d514d9f35f62931cbc0a03a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/sw.js": {
+      "checksum": "06a2d9791d514d9f35f62931cbc0a03a"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ta 2.js": {
+      "checksum": "357c50e4d41850c46ba2d1852b66e206"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ta.js": {
+      "checksum": "357c50e4d41850c46ba2d1852b66e206"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/th 2.js": {
+      "checksum": "ba3f5185d92232651009fedee6626d1f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/th.js": {
+      "checksum": "ba3f5185d92232651009fedee6626d1f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/tr 2.js": {
+      "checksum": "fb7403c4d422494e8f1a9c223f8a0dbc"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/tr.js": {
+      "checksum": "fb7403c4d422494e8f1a9c223f8a0dbc"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/tt 2.js": {
+      "checksum": "df93b942308eac861835ef484e48b3b9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/tt.js": {
+      "checksum": "df93b942308eac861835ef484e48b3b9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/uk 2.js": {
+      "checksum": "7b84db3c34fa452252d0746bfca5d8b3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/uk.js": {
+      "checksum": "7b84db3c34fa452252d0746bfca5d8b3"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ur 2.js": {
+      "checksum": "b681957e7e65c5ea0236acd3597303de"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/ur.js": {
+      "checksum": "b681957e7e65c5ea0236acd3597303de"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/vi 2.js": {
+      "checksum": "522afdd874699f29fbea7628ab2bdfd9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/vi.js": {
+      "checksum": "522afdd874699f29fbea7628ab2bdfd9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-cn 2.js": {
+      "checksum": "ff15e4f0475088258cbb5d6443a75a2f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-cn.js": {
+      "checksum": "ff15e4f0475088258cbb5d6443a75a2f"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-hk 2.js": {
+      "checksum": "9d75536624e8072743a4e6cfc6773efa"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-hk.js": {
+      "checksum": "9d75536624e8072743a4e6cfc6773efa"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-tw 2.js": {
+      "checksum": "5e45c9ebd7e7bce8fa0a1710f4e4307c"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/locales/zh-tw.js": {
+      "checksum": "5e45c9ebd7e7bce8fa0a1710f4e4307c"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/plotly-htmlwidgets 2.css": {
+      "checksum": "150e4929cfd53a8a39835d40a108a54e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/plotly-htmlwidgets.css": {
+      "checksum": "150e4929cfd53a8a39835d40a108a54e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/plotly-latest.min 2.js": {
+      "checksum": "f12745b4970bca41dc8582a20afb5bd2"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/plotlyjs/plotly-latest.min.js": {
+      "checksum": "f12745b4970bca41dc8582a20afb5bd2"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/selectize/selectize.bootstrap3 2.css": {
+      "checksum": "573633e5eb0860d61ba2e59fd6b41389"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/selectize/selectize.bootstrap3.css": {
+      "checksum": "573633e5eb0860d61ba2e59fd6b41389"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/selectize/selectize.min 2.js": {
+      "checksum": "146435eeda32f0e12bca8519f0da5ad9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/selectize/selectize.min.js": {
+      "checksum": "146435eeda32f0e12bca8519f0da5ad9"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/typedarray/LICENSE": {
+      "checksum": "ac2ed8233b48affa48a87c6001343572"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/typedarray/LICENSE 2": {
+      "checksum": "ac2ed8233b48affa48a87c6001343572"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/typedarray/typedarray.min 2.js": {
+      "checksum": "4db25a9ed5c5fcf2dd1746f27be2ef39"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/lib/typedarray/typedarray.min.js": {
+      "checksum": "4db25a9ed5c5fcf2dd1746f27be2ef39"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/plotly 2.js": {
+      "checksum": "c49bb41d6d85bb5a885827762b3cac64"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/plotly 2.yaml": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/plotly.js": {
+      "checksum": "c49bb41d6d85bb5a885827762b3cac64"
+    },
+    "assets/header-includes/plotly-binding-4.8.0/plotly.yaml": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "assets/header-includes/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets 2.css": {
+      "checksum": "150e4929cfd53a8a39835d40a108a54e"
+    },
+    "assets/header-includes/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css": {
+      "checksum": "150e4929cfd53a8a39835d40a108a54e"
+    },
+    "assets/header-includes/plotly-main-1.39.2/plotly-latest.min 2.js": {
+      "checksum": "f12745b4970bca41dc8582a20afb5bd2"
+    },
+    "assets/header-includes/plotly-main-1.39.2/plotly-latest.min.js": {
+      "checksum": "f12745b4970bca41dc8582a20afb5bd2"
+    },
+    "assets/header-includes/tocify-1.9.1/jquery.tocify 2.css": {
+      "checksum": "caa7b102e2a6b7726284a62fd8f32143"
+    },
+    "assets/header-includes/tocify-1.9.1/jquery.tocify 2.js": {
+      "checksum": "a07b7eec33de9d8cf31d7e4883e0e77d"
+    },
+    "assets/header-includes/tocify-1.9.1/jquery.tocify.css": {
+      "checksum": "caa7b102e2a6b7726284a62fd8f32143"
+    },
+    "assets/header-includes/tocify-1.9.1/jquery.tocify.js": {
+      "checksum": "a07b7eec33de9d8cf31d7e4883e0e77d"
+    },
+    "assets/header-includes/typedarray-0.1/typedarray.min 2.js": {
+      "checksum": "4db25a9ed5c5fcf2dd1746f27be2ef39"
+    },
+    "assets/header-includes/typedarray-0.1/typedarray.min.js": {
+      "checksum": "4db25a9ed5c5fcf2dd1746f27be2ef39"
+    },
+    "assets/images/dataSciPic.jpeg": {
+      "checksum": "d4988e1b3a4055599444bb326829bbdf"
+    },
+    "assets/images/F4.png": {
+      "checksum": "2b7da072cb9e907a664acd040cfb79cb"
+    },
+    "assets/images/favicon 2.ico": {
+      "checksum": "a7c4af966fba6e948792ef3f044a7079"
+    },
+    "assets/images/favicon.ico": {
+      "checksum": "a7c4af966fba6e948792ef3f044a7079"
+    },
+    "assets/images/gapLogo 2.jpg": {
+      "checksum": "3b97adebc995365a774f882ab565a94f"
+    },
+    "assets/images/gapLogo 2.png": {
+      "checksum": "5f6578348f3d1e6033d39e6a96ad1f9b"
+    },
+    "assets/images/gapLogo.jpg": {
+      "checksum": "3b97adebc995365a774f882ab565a94f"
+    },
+    "assets/images/gapLogo.png": {
+      "checksum": "5f6578348f3d1e6033d39e6a96ad1f9b"
+    },
+    "assets/images/gapLogo2 2.png": {
+      "checksum": "6bfd7591167b123b5244585414a5a9e9"
+    },
+    "assets/images/gapLogo2.png": {
+      "checksum": "6bfd7591167b123b5244585414a5a9e9"
+    },
+    "assets/images/GAPSeal 2.svg": {
+      "checksum": "2afb5133f486e01bc417717d4c8d5039"
+    },
+    "assets/images/GAPSeal.svg": {
+      "checksum": "2afb5133f486e01bc417717d4c8d5039"
+    },
+    "assets/images/jsocLogo 2.jpeg": {
+      "checksum": "ee9ccad7d57b8cb46b4f1aaea97c806e"
+    },
+    "assets/images/jsocLogo.jpeg": {
+      "checksum": "ee9ccad7d57b8cb46b4f1aaea97c806e"
+    },
+    "assets/images/logo_plain 2.jpg": {
+      "checksum": "b19b0ed56b99087b6d7ba8d925cb1b0c"
+    },
+    "assets/images/logo_plain.jpg": {
+      "checksum": "b19b0ed56b99087b6d7ba8d925cb1b0c"
+    },
+    "assets/images/logo800 2.jpg": {
+      "checksum": "15dba93cf16a43107bbc7aadcf7e65fe"
+    },
+    "assets/images/logo800.jpg": {
+      "checksum": "15dba93cf16a43107bbc7aadcf7e65fe"
+    },
+    "assets/images/skopeLogo 2.jpg": {
+      "checksum": "94a787e8f2a45046c7ac8a07304c1a8a"
+    },
+    "assets/images/skopeLogo.jpg": {
+      "checksum": "94a787e8f2a45046c7ac8a07304c1a8a"
+    },
+    "assets/images/transparentBackground 2.py": {
+      "checksum": "7cc8d2a7cc14a63e7a20ac2859ae53e7"
+    },
+    "assets/images/transparentBackground.py": {
+      "checksum": "7cc8d2a7cc14a63e7a20ac2859ae53e7"
+    },
+    "assets/js/bootstrap.min 2.js": {
+      "checksum": "ce6e785579ae4cb555c9de311d1b9271"
+    },
+    "assets/js/bootstrap.min.js": {
+      "checksum": "ce6e785579ae4cb555c9de311d1b9271"
+    },
+    "assets/js/jquery.min 2.js": {
+      "checksum": "a09e13ee94d51c524b7e2a728c7d4039"
+    },
+    "assets/js/jquery.min.js": {
+      "checksum": "a09e13ee94d51c524b7e2a728c7d4039"
+    },
+    "assets/js/navbar 2.js": {
+      "checksum": "883e0ae4a9bbe58a69b3b8df5fdcd675"
+    },
+    "assets/js/navbar.js": {
+      "checksum": "883e0ae4a9bbe58a69b3b8df5fdcd675"
+    },
+    "assets/js/popper.min 2.js": {
+      "checksum": "6b08ddc901000d51fa1f06a35518f302"
+    },
+    "assets/js/popper.min.js": {
+      "checksum": "6b08ddc901000d51fa1f06a35518f302"
+    },
+    "assets/R/hooks.R": {
+      "checksum": "2f455e73f6d5439d9b44a4d5d938865f"
+    },
+    "assets/templates/default.html": {
+      "checksum": "430a835ce263a55f0e981adfff9c9a63"
+    },
+    "assets/templates/footer.Rhtml": {
+      "checksum": "75d76a8ddb32dcc304068e5f486a005b"
+    },
+    "assets/templates/html_report.html": {
+      "checksum": "4290056688b3286ebcde2e63f0853123"
+    },
+    "assets/templates/ioslides.html": {
+      "checksum": "eed25781f42e96dc6f77e5a2e08967b5"
+    },
+    "samudio_dvf_capstone.html": {
+      "checksum": "e3cec9b1b14af5d0260b807e9f907cf0"
+    },
+    "samudio_dvf_capstone.Rmd": {
+      "checksum": "53cc724511b901d6827cb4bf3082489c"
+    }
+  },
+  "users": null
+}
