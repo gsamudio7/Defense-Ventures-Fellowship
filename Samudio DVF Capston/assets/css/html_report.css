@@ -1,0 +1,215 @@
+
+
+
+.img-fluid {
+    max-width: 65%;
+    height: auto;
+    filter: brightness(0.6);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -6em;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 2px solid #7A0000;
+}
+
+
+
+
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #767676;
+  background-color: #000000;
+}
+
+h1 {
+  margin-top: 0em;
+  margin-right: -2.5em;
+  font-size: 3em;
+  border-bottom: 1.5px solid #7A0000;
+  font-family: 'Red Hat Display', sans-serif;
+  color:  #767676;
+  text-transform: capitalize;
+}
+
+h2 {
+  margin-top: 0em;
+  font-size: 1.75em;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+}
+table {
+  font-size: 80%;
+}
+
+
+.center, .plotly, .math.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+  width: 100%;
+}
+
+
+a {
+    color: #7A0000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects:
+}
+
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 0.2em 1em 0.2em 1em;
+}
+
+.navbar-nav > li {
+  padding: 0 0.3em 0 0.3em;
+}
+
+.nav-logo {
+  max-height: 5em;
+}
+
+.pms144-breakout, .pms205-breakout, .pms370-breakout, .pms2395-breakout, .pms7676-breakout {
+  padding: 0em;
+  margin-left: -12em;
+}
+
+
+
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+.pms2395-breakout {
+  background: black;
+  color:#767676;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #7A0000;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.translucent {
+  background: black;
+  padding: 0 2em 1em 2em;
+  margin: 2em 0 2em 0;
+}
+
+.vertical-spacer {
+  height: 1em;
+}
+
+.black {
+  color: white;
+  margin-top: 0;
+}
+
+
+.def {
+  text-align: center;
+  background: #DCDCDC;
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto-Mono', sans-serif;
+  font-style: bold;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 2px solid grey;
+}
+
+.box {
+  text-align: left;
+  background: #DCDCDC;
+  color: black;
+  font-size: 1.15em;
+  font-family: 'Roboto-Mono', sans-serif;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  padding: 1em 1em 1em 1em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 2px solid grey;
+}
+
+
+.qte {
+  text-align: left;
+  color: #767676;
+  font-size: 17px;
+  font-family: 'Roboto-Mono', sans-serif;
+  font-style: bold;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+
+
+

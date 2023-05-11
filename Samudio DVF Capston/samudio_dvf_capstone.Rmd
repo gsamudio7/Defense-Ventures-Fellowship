@@ -1,0 +1,81 @@
+---
+title: "SHIFT DEFENSE VENTURES FELLOWSHIP CAPSTONE"
+subtitle: |
+  | DECISIVE POINT
+  | `r format(Sys.time(), '%B %d, %Y')`
+author: "[MAJ Gabe Samudio](https://www.linkedin.com/in/gabe-samudio/)"
+logo: assets/images/GAPSeal.svg
+nav_logo: assets/images/GAPSeal.svg
+header-breakout: pms2395-breakout
+output:
+  html_document:
+    css: assets/css/html_report.css
+    template: assets/templates/html_report.html
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+<center>
+<img src="https://www.socom.mil/PublishingImages/20200211_splash_page_image.jpg" width="80%"/> 
+</center>
+
+<br>
+
+## Zero Growth Environment
+
+- Problem: 
+  - "Zero Growth"
+  - "Do not talk to vendors"
+  - "Do not attend conferences"
+  - "Do more with less"
+  
+- Hoping to solve:
+  - <b>How to test innovative solutions from industry with a shrinking budget</b>
+  
+## SKOPE
+
+- My Office: SKOPE / Global Analytics Platform
+
+- <b>Mission: Operationalize data to accelerate JSOC Targeting</b>
+  - LOE 1: Advanced Targeting Analysis
+  - LOE 2: Process Automation
+  - LOE 3: Tactical Data Science and AI Modernization
+  
+## [Decisive Point](https://www.decisivepoint.com/)
+
+- Invested in the Mission
+
+- Advocating against "DUAL USE"
+
+- My Contributions
+  - NY Invest in America Conference
+  - MEM Computing Advisement
+  - SENTENAI Advisement
+  - Market research for two Accelerators (Hawaii Energy and Boston AR/VR, AI)
+  - Shark Tank
+
+## Potential Solutions
+
+- Start up Discovery
+  - SENTENAI
+
+  - BAZZE
+
+- Funding Solutions
+  - SOCOM SOF Digital Applications
+  - DoD Office
+  
+## New Relationships
+
+- John O Connor
+
+- Ryan Drzyzga
+
+- Rohit Gupta
+
+- 
+
+## Change the Paradigm
+
