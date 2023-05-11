@@ -27,6 +27,13 @@
     border-radius: 0.25rem;
 }
 
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #d5dce3;
+    font-size: 1.25rem;
+    background-color: #000000;
+}
+
 .dropdown-divider {
     height: 0;
     margin: 0.5rem 0;
@@ -74,6 +81,7 @@ h4 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
 }
+
 table {
   font-size: 80%;
 }
@@ -85,11 +93,9 @@ table {
     margin-right: auto;
 }
 
-
 .header {
   width: 100%;
 }
-
 
 a {
   color: #7A0000;
@@ -98,7 +104,6 @@ a {
   font-weight: bold !important;
   font-size: 1.5em;
 }
-
 
 .middle {
   display: flex;
