@@ -128,6 +128,12 @@ library(pagedown)
 
 ## Change the Paradigm
 
+<center>
+<img src="https://assets.website-files.com/5f83e8b299580b225613aa19/6262406efa2a7c25029ec495_cohort_UPDATE.jpg" width="60%"/> 
+</center>
+
+<br>
+
 <div style="float: left; width: 45%;">
 
 ### Status Quo
